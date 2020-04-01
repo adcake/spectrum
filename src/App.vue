@@ -44,7 +44,7 @@
       color="grey darken-4"
       dark
     >
-      <v-app-bar-nav-icon class="hidden-sm-and-up"  @click.stop="drawer = !drawer" />
+      <v-app-bar-nav-icon class="hidden-md-and-up"  @click.stop="drawer = !drawer" />
       <v-avatar tile width="220" max-height="auto">
             <img src="@/assets/logo/spectrum.png">
       </v-avatar>
@@ -68,7 +68,7 @@
         </v-menu>
 
         <template v-slot:extension>
-          <v-tabs align-with-title class="d-none d-sm-flex hidden-sm-and-down">
+          <v-tabs align-with-title class="d-none d-md-flex hidden-md-and-down">
             <v-tab class="body-2">Seguridad Pública</v-tab>
             <v-tab class="body-2">Minería & Petróleo</v-tab>
             <v-tab class="body-2">Comercial & Industrial</v-tab>
@@ -77,57 +77,48 @@
           </v-tabs>
         </template>
 
-        <!-- <v-btn outlined depressed color="blue-grey lighten-5" href="login">
-          <span>login</span>
-          <v-icon right color="blue-grey darken-5">exit_to_app</v-icon>
-        </v-btn> -->
+        <v-btn outlined depressed color="blue-grey lighten-5" href="https://wa.me/584241271455?text=Hola%20Spectrum,%20estoy%20interesado%20en%20la%20lista%20de%20precios" target="_blank">
+          <span>Whatsapp</span>
+          <v-icon right color="green">fab fa-whatsapp</v-icon>
+        </v-btn>
     </v-app-bar>
 
     <v-content>
       <v-container class="px-0 py-0 my-0 mx-0" fullscreen fluid >
         <router-view>
 
-          <!-- <v-row align="center" justify="center">
-            <v-col class="shrink">
-              <v-tooltip right>
-
-              </v-tooltip>
-            </v-col>
-          </v-row> -->
-
         </router-view>
       </v-container>
     </v-content>
 
-    <v-footer
-    dark
-    padless
-    >
-      <v-card
-        class="flex"
-        flat
-        tile
-      >
-        <v-card-title class="grey darken-4">
-          <strong class="subheading">Contactanos</strong>
+    <v-footer dark padless>
 
-          <v-spacer></v-spacer>
-
-          <v-btn
+      <v-row justify="center" no-gutters >
+        <v-btn
+          v-for="link in menu" :key="link.text"  :to="link.route"
+          color="white"
+          text
+          rounded
+          class="my-2 font-weight-regular "
+          small
+        >
+          {{ link.text }}
+        </v-btn>
+        <v-btn
             v-for="icon in icons"
             :key="icon"
-            class="mx-4"
+            small
+            class="mx-2 align-self-center "
             dark
             icon
           >
             <v-icon size="24px">{{ icon }}</v-icon>
           </v-btn>
-        </v-card-title>
-
-        <v-card-text class="py-2 white--text text-center">
-          {{ new Date().getFullYear() }} — <strong>Spectrum Tecnología C.A.</strong>
-        </v-card-text>
-      </v-card>
+        <v-col class="grey darken-4 lighten-2 py-4 text-center white--text caption" cols="12">
+          {{ new Date().getFullYear() }} — <strong>Spectrum Tecnología C.A.</strong> - <light>Bulevar de Sabana Grande, Caracas, Distrito Capital, Venezuela.</light>
+          
+        </v-col>
+      </v-row>
     </v-footer>
   </v-app>
 </template>
@@ -152,78 +143,7 @@
       'fab fa-instagram',
       ],
 
-    //   items: [
-    //   {
-    //     id: 1,
-    //     name: 'RADIOCOMUNICACIÓN :',
-    //     children: [
-    //       { id: 2, name: 'RADIOCOMUNICACIÓN' },
-    //       { id: 3, name: 'Chrome : app' },
-    //       { id: 4, name: 'Webstorm : app' },
-    //     ],
-    //   },
-    //   {
-    //     id: 5,
-    //     name: 'Documents :',
-    //     children: [
-    //       {
-    //         id: 6,
-    //         name: 'vuetify :',
-    //         children: [
-    //           {
-    //             id: 7,
-    //             name: 'src :',
-    //             children: [
-    //               { id: 8, name: 'index : ts' },
-    //               { id: 9, name: 'bootstrap : ts' },
-    //             ],
-    //           },
-    //         ],
-    //       },
-    //       {
-    //         id: 10,
-    //         name: 'material2 :',
-    //         children: [
-    //           {
-    //             id: 11,
-    //             name: 'src :',
-    //             children: [
-    //               { id: 12, name: 'v-btn : ts' },
-    //               { id: 13, name: 'v-card : ts' },
-    //               { id: 14, name: 'v-window : ts' },
-    //             ],
-    //           },
-    //         ],
-    //       },
-    //     ],
-    //   },
-    //   {
-    //     id: 15,
-    //     name: 'Downloads :',
-    //     children: [
-    //       { id: 16, name: 'October : pdf' },
-    //       { id: 17, name: 'November : pdf' },
-    //       { id: 18, name: 'Tutorial : html' },
-    //     ],
-    //   },
-    //   {
-    //     id: 19,
-    //     name: 'Videos :',
-    //     children: [
-    //       {
-    //         id: 20,
-    //         name: 'Tutorials :',
-    //         children: [
-    //           { id: 21, name: 'Basic layouts : mp4' },
-    //           { id: 22, name: 'Advanced techniques : mp4' },
-    //           { id: 23, name: 'All about app : dir' },
-    //         ],
-    //       },
-    //       { id: 24, name: 'Intro : mov' },
-    //       { id: 25, name: 'Conference introduction : avi' },
-    //     ],
-    //   },
-    // ],
+    
 
 
     }),

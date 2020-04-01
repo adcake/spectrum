@@ -14,7 +14,7 @@
           
         >
           <v-carousel-item
-            v-for="(item,i) in items"
+            v-for="(item,i) in banners"
             :key="i"
             :src="item.src"
           >
@@ -53,6 +53,8 @@
     <v-container fluid class="my-5">
       
       <v-layout row wrap pa-2>
+
+        <!-- FUERZA PUBLICA -->
         <v-flex xs12 sm12 md6 pa-2>
           <v-card hover :ripple="{ class: 'blue--text' }">
             <v-img
@@ -77,6 +79,7 @@
           </v-card>
         </v-flex>
 
+        <!-- MINERIA -->
         <v-flex xs12 sm6 md6 pa-2>
           <v-card hover :ripple="{ class: 'red--text' }">
             <v-img
@@ -99,6 +102,7 @@
           </v-card>
         </v-flex>
 
+        <!-- INDUSTRIA -->
         <v-flex xs6 sm6 md4 pa-2>
           <v-card hover :ripple="{ class: 'green--text' }">
             <v-img
@@ -107,7 +111,7 @@
               gradient="to bottom, rgba(0,0,0,.2), rgba(0,0,0,1)"
               src="@/assets/home/industrias3.jpg"
             >
-              <v-card-title class="text-shadow display-1 word-break-normal font-weight-black">Industrias & <br />Comercial</v-card-title>
+              <v-card-title class="text-shadow display-1 word-break-normal font-weight-black">Industria & <br />Comercio</v-card-title>
               <div class="px-4 pb-2">
                 <span class="font-weight-medium ">
                 Grandes, medianas y pequeñas empresas.
@@ -121,6 +125,7 @@
           </v-card>
         </v-flex>
 
+        <!-- TRANSPORTE -->
         <v-flex xs6 sm6 md4 pa-2>
           <v-card hover :ripple="{ class: 'yellow--text' }">
             <v-img
@@ -143,6 +148,7 @@
           </v-card>
         </v-flex>
 
+        <!-- SERVICIOS PUBLICOS -->
         <v-flex xs12 sm6 md4 pa-2>
           <v-card hover :ripple="{ class: 'blue--text' }">
             <v-img
@@ -173,7 +179,7 @@
       <v-flex xs12 class="py-10 my-10 align-self-center">
           <div class="text-justify text-center px-2">
             <p class="text-center font-weight-medium" :style="{'font-size': fontSize}">
-            Si desea saber más sobre nuestras soluciones y productos<br />
+            Si desea información sobre nuestras soluciones y productos<br />
             </p>
           </div>
           <div class="align-self-center text-center">
@@ -186,30 +192,6 @@
       </v-flex>
     </v-row>
 
-      <!-- <v-container fluid>
-        <v-row dense>
-          <v-col
-            v-for="card in cards"
-            :key="card.title"
-            :cols="card.flex"
-          >
-            <v-card
-              :color="card.color">
-              <v-img
-                :src="card.src"
-                class="white--text align-end"
-                gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.8)"
-                height="300px"
-              >
-                <v-card-title class="headline font-weight-bold word-break-normal" v-text="card.title"></v-card-title>
-                <v-card-text v-text="card.text" class="title font-weight-bold"></v-card-text>
-                <v-spacer></v-spacer>
-              </v-img>
-
-            </v-card>
-          </v-col>
-        </v-row>
-      </v-container> -->
   </v-container>
   
 </template>
@@ -219,40 +201,23 @@
 
 
 export default {
-  name: 'Home',
+  name: 'Tester',
   data () {
       return {
-        items: [
-          {
-            src: require('@/assets/banner/one.jpg'),
-          },
-          {
-            src: require('@/assets/banner/two.jpg'),
-          },
-          {
-            src: require('@/assets/banner/three.jpg'),
-          },
-          {
-            src: require('@/assets/banner/four.jpg'),
-          },
-          {
-            src: require('@/assets/banner/five.jpg'),
-          },
-          {
-            src: require('@/assets/banner/six.jpg'),
-          },
-          {
-            src: require('@/assets/banner/seven.jpg'),
-          },
+        banners: [
+          {src: require('@/assets/banner/one.jpg')},
+          {src: require('@/assets/banner/two.jpg')},
+          {src: require('@/assets/banner/three.jpg')},
+          {src: require('@/assets/banner/four.jpg')},
+          {src: require('@/assets/banner/five.jpg')},
+          {src: require('@/assets/banner/six.jpg')},
+          {src: require('@/assets/banner/seven.jpg')},
         ],
 
-        cards: [
-        { color:'primary', title: 'Seguridad Pública', src: require('@/assets/home/industrias.jpg'), flex: 6, text: 'Comunicaciones líderes para la seguridad pública.' },
-        { title: 'Mineria & Petroleo', src: require('@/assets/home/industrias2.jpg'), flex: 6, text: 'Las compañías mineras más grandes del mundo confían en Spectrum para sus soluciones' },
-        { title: 'Comercial & Industrial', src: require('@/assets/home/industrias3.jpg'), flex: 4 },
-        { title: 'Transporte', src: require('@/assets/home/industrias4.jpg'), flex: 4 },
-         { title: 'Servicios Públicos', src: require('@/assets/home/industrias5.jpg'), flex: 4 },
-      ],
+        industries: [
+          {color:'primary', title: 'Seguridad Pública', src: require('@/assets/home/industrias.jpg'), flex: 6, text: 'Comunicaciones líderes para la seguridad pública.'},
+
+        ],
       }
     },
 
