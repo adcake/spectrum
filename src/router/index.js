@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Publico from '../views/categories/Publico.vue'
 import Mineria from '../views/categories/Mineria.vue'
+import Industrial from '../views/categories/Industrial.vue'
 import Quienes from '../views/Quienes.vue'
 
 Vue.use(VueRouter)
@@ -28,6 +29,11 @@ const routes = [
     path: '/categories/Mineria',
     name: 'Mineria',
     component: Mineria
+  },
+  {
+    path: '/categories/Industrial',
+    name: 'Industrial',
+    component: Industrial
   },
   {
     path: '/about',

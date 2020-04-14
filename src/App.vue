@@ -45,9 +45,13 @@
       dark
     >
       <v-app-bar-nav-icon class="hidden-md-and-up"  @click.stop="drawer = !drawer" />
-      <v-avatar tile width="220" max-height="auto">
-            <img src="@/assets/logo/spectrum.png">
+      <router-link
+        to="/"
+        tag="v-btn"
+      ><v-avatar tile width="220" max-height="auto">
+            <img src="@/assets/logo/spectrum.png" >
       </v-avatar>
+      </router-link>
 
       <v-spacer></v-spacer>
 
@@ -69,11 +73,11 @@
 
         <template v-slot:extension>
           <v-tabs align-with-title class="d-none d-md-flex hidden-md-and-down">
-            <v-tab class="body-2">Seguridad Pública</v-tab>
-            <v-tab class="body-2">Minería & Petróleo</v-tab>
-            <v-tab class="body-2">Comercial & Industrial</v-tab>
-            <v-tab class="body-2">Servicios Públicos</v-tab>
-            <v-tab class="body-2">Transporte</v-tab>
+            <v-tab class="body-2" to="/categories/publico">Seguridad Pública</v-tab>
+            <v-tab class="body-2" to="/categories/mineria">Minería & Petróleo</v-tab>
+            <v-tab class="body-2" to="/categories/industrial">Comercial & Industrial</v-tab>
+            <v-tab class="body-2" to="/categories/quienes">Servicios Públicos</v-tab>
+            <v-tab class="body-2" to="/categories/transporte">Transporte</v-tab>
           </v-tabs>
         </template>
 
@@ -134,7 +138,7 @@
           { icon: 'call', text: 'Contactanos', route: '/Profile' },
           { icon: 'check_box', text: 'Nuestras Marcas', route: '/orders' },
           { icon: 'local_shipping', text: 'Distribuidores', route: '/howto' },
-          { icon: 'business', text: 'Quienes Somos', route: '/support' },
+          { icon: 'business', text: 'Quienes Somos', route: '/quienes' },
           // { icon: 'history', text: 'History', route: '/history' },
         ],
 
