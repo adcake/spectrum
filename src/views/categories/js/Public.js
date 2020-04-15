@@ -1,9 +1,13 @@
 // @ is an alias to /src
-import PublicDialog from '/categories/modulos/PublicDialog';
+import PublicDialog from './categories/modulos/PublicDialog.vue';
 
 export default {
+    components: {
+      PublicDialog
+    },
     data: () => ({
-  
+      
+      dialog: false,
       homeCards: [
         { src: require('@/assets/home/fuerza4.jpg'), title: 'Policia', text: 'Organismo Nacionales, Estadales, Municipals y Científicos.'},
         { src: require('@/assets/home/fuerza7.jpg'), title: 'Salud', text: 'Hospitales, Centros de Salud y Ambulancias.'},
