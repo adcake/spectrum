@@ -59,10 +59,7 @@
               </div>
               <template>
                 <div class="text-center pb-4">
-                  <v-btn x-small rounded outlined :ripple="{ center: true, class: 'green--text' }"  color="green" @click="dialog">
-                    Ver más
-                  </v-btn>
-                  <PublicDialog :dialog.sync="dialog" />
+                  <PublicDialogPolice :dialog.sync="dialog" />
                 </div>
               </template>
               <v-spacer></v-spacer>

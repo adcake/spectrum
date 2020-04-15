@@ -1,18 +1,18 @@
 // @ is an alias to /src
-import PublicDialog from './categories/modulos/PublicDialog.vue';
+import PublicDialogPolice from '@/views/categories/modules/PublicDialogPolice.vue';
 
 export default {
     components: {
-      PublicDialog
+      PublicDialogPolice
     },
     data: () => ({
       
       dialog: false,
       homeCards: [
-        { src: require('@/assets/home/fuerza4.jpg'), title: 'Policia', text: 'Organismo Nacionales, Estadales, Municipals y Científicos.'},
-        { src: require('@/assets/home/fuerza7.jpg'), title: 'Salud', text: 'Hospitales, Centros de Salud y Ambulancias.'},
-        { src: require('@/assets/home/fuerza6.jpg'), title: 'Bomberos', text: 'Protección Civil, Bomberos y Guarda Parques.'},
-        { src: require('@/assets/home/fuerza3.jpg'), title: 'Encubiertos', text: 'Equipos para operaciones encubiertas.'},
+        { radioEquip: 'PublicDialogPolice', src: require('@/assets/home/fuerza4.jpg'), title: 'Policia', text: 'Organismo Nacionales, Estadales, Municipals y Científicos.'},
+        { radioEquip: 'PublicDialogHealth', src: require('@/assets/home/fuerza7.jpg'), title: 'Salud', text: 'Hospitales, Centros de Salud y Ambulancias.'},
+        { radioEquip: 'PublicDialogFire', src: require('@/assets/home/fuerza6.jpg'), title: 'Bomberos', text: 'Protección Civil, Bomberos y Guarda Parques.'},
+        { radioEquip: 'PublicDialogCovert', src: require('@/assets/home/fuerza3.jpg'), title: 'Encubiertos', text: 'Equipos para operaciones encubiertas.'},
         // { src: require('@/assets/home/fuerza4.jpg'), title: 'Fuerza Armada', text: 'Componentes de Mar, Aire y Tierra.'},
       ],
       
