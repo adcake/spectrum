@@ -39,35 +39,10 @@
     </v-row>
 
 //// SECTORES SEG PUBLICA
-    <v-container grid-list-xs fluid>
-      <v-layout row wrap>
-        <v-flex xs6 sm6 md3 v-for="(item, i) in homeCards" :key="i">
-          <v-card class="ma-1" hover :ripple="{ class: 'red--text' }" >
-            <v-img
-              class="white--text align-end"
-              height="200px"
-              gradient="to bottom, rgba(0,0,0,.2), rgba(0,0,0,.9), rgba(0, 0, 0, .4)"
-              :src="item.src"
-            >
-              <v-card-title class="text-shadow display-1 text-center font-weight-black">
-                <span class="text-center">{{ item.title }}</span>
-              </v-card-title>
-              <div class="px-4 pb-2">
-                <span class="font-weight-medium text-shadow">
-                 {{ item.text }}
-                </span>
-              </div>
-              <template>
-                <div class="text-center pb-4">
-                  <PublicDialogPolice :dialog.sync="dialog" />
-                </div>
-              </template>
-              <v-spacer></v-spacer>
-            </v-img>
-          </v-card>
-        </v-flex>
-      </v-layout>
-    </v-container>
+  
+  <PublicDialogPolice />
+    
+ 
 
     <!-- <v-container  fluid class="my-5">
       <v-layout row wrap pa-2>

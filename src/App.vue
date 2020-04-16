@@ -65,7 +65,9 @@
           </template>
           <v-list>
             <v-list-item v-for="link in menu" :key="link.text" router :to="link.route">
-              <v-list-item-action class=" mr-4"><v-icon medium class="grey--text text--darken-3">{{ link.icon }}</v-icon></v-list-item-action>
+              <v-list-item-action class=" mr-4">
+                <v-icon medium class="grey--text text--darken-3">{{ link.icon }}</v-icon>
+              </v-list-item-action>
               <v-list-item-title>{{ link.text }}</v-list-item-title> 
             </v-list-item>
           </v-list>
@@ -135,7 +137,7 @@
     data: () => ({
       drawer: false,
       menu: [
-          { icon: 'call', text: 'Contactanos', route: '/Profile' },
+          { icon: 'call', text: 'Contactanos', route: '/about' },
           { icon: 'check_box', text: 'Nuestras Marcas', route: '/orders' },
           { icon: 'local_shipping', text: 'Distribuidores', route: '/howto' },
           { icon: 'business', text: 'Quienes Somos', route: '/quienes' },
