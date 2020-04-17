@@ -39,10 +39,151 @@
     </v-row>
 
 //// SECTORES SEG PUBLICA
-  
-  <PublicDialog />
-    
- 
+    <v-container grid-list-xs fluid>
+      <v-layout row wrap>
+        <v-flex xs6 sm6 md3 v-for="(item, i) in homeCards" :key="i">
+          <v-card class="ma-1" hover :ripple="{ class: 'red--text' }" >
+            <v-img
+              class="white--text align-end"
+              height="200px"
+              gradient="to bottom, rgba(0,0,0,.2), rgba(0,0,0,.9), rgba(0, 0, 0, .4)"
+              :src="item.src"
+            >
+              <v-card-title class="text-shadow display-1 text-center font-weight-black">
+                <span class="text-center">{{ item.title }}</span>
+              </v-card-title>
+              <div class="px-4 pb-2">
+                <span class="font-weight-medium text-shadow">
+                 {{ item.text }}
+                </span>
+              </div>
+              <template>
+                  <PublicDialog :dialog.sync="dialog" />
+              </template>
+              <v-spacer></v-spacer>
+            </v-img>
+          </v-card>
+        </v-flex>
+      </v-layout>
+    </v-container>
+
+    <!-- <v-container  fluid class="my-5">
+      <v-layout row wrap pa-2>
+        <v-flex xs12 sm12 md4 pa-2>
+          <v-card hover :ripple="{ class: 'red--text' }" >
+            <v-img
+              class="white--text align-end"
+              height="200px"
+              gradient="to bottom, rgba(0,0,0,.2), rgba(0,0,0,.8), rgba(0, 0, 0, .5)"
+              src="@/assets/home/fuerza4.jpg"
+            >
+              <v-card-title class="text-shadow display-1 text-center font-weight-black">
+                <span class="text-center">Policia</span>
+              </v-card-title>
+              <div class="px-4 pb-2">
+                <span class="font-weight-medium">
+                  Organismo Nacionales, Estadales, Municipals y Científicos.
+                </span>
+              </div>
+              <div class="text-center pb-4">
+                <v-btn x-small rounded outlined :ripple="{ center: true, class: 'green--text' }"  color="green">Más Info</v-btn>
+              </div>
+              <v-spacer></v-spacer>
+            </v-img>
+          </v-card>
+        </v-flex>
+
+        <v-flex xs6 sm6 md4 pa-2>
+          <v-card hover :ripple="{ class: 'green--text' }">
+            <v-img
+              class="white--text align-end"
+              height="200px"
+              gradient="to bottom, rgba(0,0,0,.2), rgba(0,0,0,.8), rgba(0, 0, 0, .5)"
+              src="@/assets/home/fuerza7.jpg"
+            >
+              <v-card-title class="text-shadow display-1 word-break-normal font-weight-black">Salud</v-card-title>
+              <div class="px-4 pb-2">
+                <span class="font-weight-medium">
+                Hospitales, Centros de Salud y Ambulancias.
+                </span>
+              </div>
+              <div class="text-center pb-4">
+                <v-btn  x-small rounded outlined :ripple="{ center: true, class: 'green--text' }"  color="green">Más Info</v-btn>
+              </div>
+              <v-spacer></v-spacer>
+            </v-img>
+          </v-card>
+        </v-flex>
+
+        <v-flex xs6 sm6 md4 pa-2>
+          <v-card hover :ripple="{ class: 'yellow--text' }">
+            <v-img
+              class="white--text align-end"
+              height="200px"
+              gradient="to bottom, rgba(0,0,0,.2), rgba(0,0,0,.8), rgba(0, 0, 0, .3)"
+              src="@/assets/home/fuerza5.jpg"
+            >
+              <v-card-title class="text-shadow display-1 word-break-normal font-weight-black">Bomberos</v-card-title>
+              <div class="px-4 pb-2">
+                <span class="font-weight-medium">
+                  Protección Civil, Bomberos y Guarda Parques.
+                </span>
+              </div>
+              <div class="text-center pb-4">
+                <v-btn x-small rounded outlined :ripple="{ center: true, class: 'green--text' }"  color="green">Más Info</v-btn>
+              </div>
+              <v-spacer></v-spacer>
+            </v-img>
+          </v-card>
+        </v-flex>
+
+         <v-flex xs12 sm6 md6 pa-2>
+          <v-card hover :ripple="{ class: 'blue--text' }">
+            <v-img
+              class="white--text align-end"
+              height="200px"
+              gradient="to bottom, rgba(0,0,0,.2), rgba(0,0,0,.8), rgba(0, 0, 0, .5)"
+              src="@/assets/home/fuerza.jpg"
+            >
+              <v-card-title class="text-shadow display-1 word-break-normal font-weight-black">Encubiertos</v-card-title>
+              <div class="px-4 pb-2">
+                <span class="font-weight-medium">
+                Equipos para operaciones encubiertas.
+                </span>
+              </div>
+              <div class="text-center pb-4">
+                <v-btn x-small rounded outlined :ripple="{ center: true, class: 'green--text' }"  color="green">Más Info</v-btn>
+              </div>
+              <v-spacer></v-spacer>
+            </v-img>
+          </v-card>
+        </v-flex>
+
+        <v-flex xs12 sm6 md6 pa-2>
+          <v-card hover :ripple="{ class: 'blue--text' }">
+            <v-img
+              class="white--text align-end"
+              height="200px"
+              gradient="to bottom, rgba(0,0,0,.2), rgba(0,0,0,.8), rgba(0, 0, 0, .5)"
+              src="@/assets/home/fuerza8.jpg"
+            >
+              <v-card-title class="text-shadow display-1 word-break-normal font-weight-black">Fuerza Armada</v-card-title>
+              <div class="px-4 pb-2">
+                <span class="font-weight-medium">
+                Componentes de Mar, Aire y Tierra.
+                </span>
+              </div>
+              <div class="text-center pb-4">
+                <v-btn x-small rounded outlined :ripple="{ center: true, class: 'green--text' }"  color="green">Más Info</v-btn>
+              </div>
+              <v-spacer></v-spacer>
+            </v-img>
+          </v-card>
+        </v-flex>
+
+      </v-layout>
+
+    </v-container> -->
 
 
 //// SAFECITY
@@ -215,38 +356,9 @@
         
       </v-row>
 
-      
-      <!-- <v-container fluid>
-          <v-row no-gutters class="mx-10 borderRow" v-for="(item, i) in itemsSpec" :key="i">
-            <v-col cols="12" sm="4" class="align-self-center">
-              <v-card class="pa-2" flat tile >
-                <span class="font-weight-bold">{{ item.title }}</span>
-              </v-card>
-            </v-col>
-            <v-col cols="12" sm="8">
-              <v-card class="pa-2" flat tile >
-                <ul>
-                  <li>{{ item.text }}</li>
-                  <li v-if="item.text2">{{item.text2}}</li>
-                </ul>
-              </v-card>
-            </v-col>
-          </v-row>
-          
-
-      </v-container> -->
 
       <v-container fluid class="mb-5" grid-list-xs>
-        <!-- <v-row class="pt-5 pb-5 px-10">
-          <v-flex xs12 px-2>
-            <ul v-for="(item, i) in itemsTetra" :key="i">
-              <li class="py-1" >
-                <span class="font-weight-medium">{{ item.title }}</span>
-                <span class="font-weight-light text-justify">{{ item.text }}</span>
-              </li>
-            </ul>
-          </v-flex>
-        </v-row> -->
+
       </v-container>
    
     

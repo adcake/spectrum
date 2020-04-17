@@ -3,11 +3,18 @@ import PublicDialog from '@/views/categories/modules/PublicDialog.vue';
 
 export default {
     components: {
-      PublicDialog,
+      PublicDialog
     },
     data: () => ({
       
-      
+      dialog: false,
+      homeCards: [
+        { src: require('@/assets/home/fuerza4.jpg'), title: 'Policia', text: 'Organismo Nacionales, Estadales, Municipals y Científicos.'},
+        { radioEquip: 'PublicDialogHealth', src: require('@/assets/home/fuerza7.jpg'), title: 'Salud', text: 'Hospitales, Centros de Salud y Ambulancias.'},
+        { radioEquip: 'PublicDialogFire', src: require('@/assets/home/fuerza6.jpg'), title: 'Bomberos', text: 'Protección Civil, Bomberos y Guarda Parques.'},
+        { radioEquip: 'PublicDialogCovert', src: require('@/assets/home/fuerza3.jpg'), title: 'Encubiertos', text: 'Equipos para operaciones encubiertas.'},
+        // { src: require('@/assets/home/fuerza4.jpg'), title: 'Fuerza Armada', text: 'Componentes de Mar, Aire y Tierra.'},
+      ],
       
       parrafos: [
           { header:'La seguridad pública es un elemento esencial y claramente vertebrador en las sociedades actuales. La confianza que depositan los ciudadanos en los cuerpos y agencias de seguridad pública permiten que se genere el entorno propicio y necesario para el desarrollo de todo tipo de actividades, contribuyendo al desarrollo social, económico y humano de las poblaciones, y en última instancia de nuestras sociedades.' },
