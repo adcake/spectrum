@@ -40,7 +40,7 @@
 
 //// SECTORES SEG PUBLICA
   
-  <PublicDialogPolice />
+  <PublicDialog />
     
  
 
