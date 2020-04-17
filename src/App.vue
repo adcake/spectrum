@@ -45,12 +45,10 @@
       dark
     >
       <v-app-bar-nav-icon class="hidden-md-and-up"  @click.stop="drawer = !drawer" />
-      <router-link
-        to="/"
-        tag="v-btn"
-      ><v-avatar tile width="220" max-height="auto">
-            <img src="@/assets/logo/spectrum.png" >
-      </v-avatar>
+      <router-link 
+      to="/"
+      >
+      <v-avatar tile width="220" max-height="auto"><img src="@/assets/logo/spectrum.png"></v-avatar>
       </router-link>
 
       <v-spacer></v-spacer>
@@ -121,7 +119,7 @@
             <v-icon size="24px">{{ icon }}</v-icon>
           </v-btn>
         <v-col class="grey darken-4 lighten-2 py-4 text-center white--text caption" cols="12">
-          {{ new Date().getFullYear() }} — <strong>Spectrum Tecnología C.A.</strong> - <light>Bulevar de Sabana Grande, Caracas, Distrito Capital, Venezuela.</light>
+          {{ new Date().getFullYear() }} — <strong>Spectrum Tecnología C.A.</strong> - <span class="font-weigth-light">Bulevar de Sabana Grande, Caracas, Distrito Capital, Venezuela.</span>
           
         </v-col>
       </v-row>
