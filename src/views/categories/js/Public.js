@@ -1,11 +1,9 @@
 // @ is an alias to /src
 import PublicDialog from '@/views/categories/modules/PublicDialog.vue';
-import PublicDialogPopUp from '@/views/categories/modules/PublicDialogPopUp.vue';
 
 export default {
     components: {
       PublicDialog,
-      PublicDialogPopUp,
     },
     data: () => ({
       
