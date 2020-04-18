@@ -36,7 +36,9 @@
                           <v-list-item>
                           <v-list-item-content>
                               <v-list-item-title>{{ radio.text }}</v-list-item-title>
-                              <v-list-item-subtitle>{{ radio.text2 }}</v-list-item-subtitle>
+                              <v-list-item-subtitle>
+                                <v-chip primary>{{ radio.text2 }}</v-chip>
+                                </v-list-item-subtitle>
                           </v-list-item-content>
                           </v-list-item>
                       </v-list>
