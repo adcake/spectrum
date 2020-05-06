@@ -2,9 +2,11 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Publico from '../views/categories/Publico.vue'
-import Mineria from '../views/categories/Mineria.vue'
+import Critica from '../views/categories/Critica.vue'
 import Industrial from '../views/categories/Industrial.vue'
+import Transporte from '../views/categories/Transporte.vue'
 import Quienes from '../views/Quienes.vue'
+import Marcas from '../views/Marcas.vue'
 
 Vue.use(VueRouter)
 
@@ -19,21 +21,31 @@ const routes = [
     name: 'Quines',
     component: Quienes
   },
-
+  {
+    path: '/marcas',
+    name: 'Marcas',
+    component: Marcas
+  },
   {
     path: '/categories/Publico',
     name: 'Publico',
     component: Publico
   },
   {
-    path: '/categories/Mineria',
-    name: 'Mineria',
-    component: Mineria
+    path: '/categories/Critica',
+    name: 'Critica',
+    component: Critica
   },
   {
     path: '/categories/Industrial',
     name: 'Industrial',
     component: Industrial
+  },
+  
+  {
+    path: '/categories/Transporte',
+    name: 'Transporte',
+    component: Transporte
   },
   {
     path: '/about',

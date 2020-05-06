@@ -11,5 +11,6 @@ export default new Vuetify({
     icons: {
         iconfont: 'md', // default - only for display purposes
     },
+    
 })
 
