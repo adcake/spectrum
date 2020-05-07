@@ -3,14 +3,11 @@
     <!-- <img src="@/assets/one.png" alt=""> -->
     <v-row>
       <v-carousel
-        height="auto"
         cycle
-        fullscreen
+        height="400"
         hide-delimiter-background
-        hide-delimiters
         show-arrows-on-hover
-        vertical
-        vertical-delimiters
+        
       >
         <v-carousel-item v-for="(item, i) in banners" :key="i" :src="item.src">
           <v-row class="fill-height" align="center" justify="center">
@@ -36,11 +33,12 @@
         >
           <span class="text-justify">
             <p>
-              Spectrum Tecnología comercializa, distribuye y asesora en materia de radiocomunicaciones. Cuenta con el
-              portafolio de productos más completo de soluciones para el sector público y privado: radios digitales y
+              Empresa Venezolana líder en el mercado nacional con más de 11 años de trayectoria, especializada en brindar soluciones de seguridad electrónica y radiocomunicaciones, cuenta con representación directa de las marcas de mayor prestigio a nivel mundial, por lo que podemos asegurar la excelente calidad de nuestros productos, la mejor relación precio-valor del mercado y el servicio posventa más confiable del país.
+              <br/><br/>
+              Contamos con el portafolio de productos más completo de soluciones para el sector público y privado: radios digitales y
               analógicos, infraestructura de radiocomunicación, soluciones para labores de inteligencia y protección de
               personalidades, aplicaciones para seguridad pública y misión crítica, equipos para uso en minería,
-              petróleo, gas, marítimo y aeronáutico, entre otro.
+              petróleo, gas, marítimo y aeronáutico.
             </p>
           </span>
         </div>
@@ -51,7 +49,7 @@
       <v-layout row wrap pa-2>
         <!-- FUERZA PUBLICA -->
         <v-flex xs12 sm12 md6 pa-2>
-          <v-card hover :ripple="{ class: 'blue--text' }">
+          <v-card hover :ripple="{ class: 'blue--text' }" to="/categories/publico">
             <v-img
               class="white--text align-end"
               height="250px"
@@ -68,7 +66,7 @@
               </div>
               <div class="text-center pb-4">
                 <v-btn x-small rounded outlined :ripple="{ center: true, class: 'green--text' }" color="green"
-                  >Más Info</v-btn
+                  to="/categories/publico">Más Info</v-btn
                 >
               </div>
 
@@ -79,11 +77,11 @@
 
         <!-- MINERIA -->
         <v-flex xs12 sm6 md6 pa-2>
-          <v-card hover :ripple="{ class: 'red--text' }">
+          <v-card hover :ripple="{ class: 'red--text' }" to="/categories/critica">
             <v-img
               class="white--text align-end"
               height="250px"
-              gradient="to bottom, rgba(0,0,0,.2), rgba(0,0,0,1)"
+              gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.7)"
               src="@/assets/home/industrias2.jpg"
             >
               <v-card-title class="text-shadow display-1 word-break-normal font-weight-black"
@@ -96,7 +94,7 @@
               </div>
               <div class="text-center pb-4">
                 <v-btn x-small rounded outlined :ripple="{ center: true, class: 'green--text' }" color="green"
-                  >Más Info</v-btn
+                  to="/categories/critica">Más Info</v-btn
                 >
               </div>
               <v-spacer></v-spacer>
@@ -106,11 +104,11 @@
 
         <!-- INDUSTRIA -->
         <v-flex xs12 sm6 md6 pa-2>
-          <v-card hover :ripple="{ class: 'green--text' }">
+          <v-card hover :ripple="{ class: 'green--text' }" to="/categories/industrial">
             <v-img
               class="white--text align-end"
               height="250px"
-              gradient="to bottom, rgba(0,0,0,.2), rgba(0,0,0,1)"
+              gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.7)"
               src="@/assets/home/industrias3.jpg"
             >
               <v-card-title class="text-shadow display-1 word-break-normal font-weight-black"
@@ -123,7 +121,7 @@
               </div>
               <div class="text-center pb-4">
                 <v-btn x-small rounded outlined :ripple="{ center: true, class: 'green--text' }" color="green"
-                  >Más Info</v-btn
+                  to="/categories/industrial" >Más Info</v-btn
                 >
               </div>
               <v-spacer></v-spacer>
@@ -133,11 +131,11 @@
 
         <!-- TRANSPORTE -->
         <v-flex xs12 sm12 md6 pa-2>
-          <v-card hover :ripple="{ class: 'yellow--text' }">
+          <v-card hover :ripple="{ class: 'yellow--text' }" to="/categories/transporte">
             <v-img
               class="white--text align-end"
               height="250px"
-              gradient="to bottom, rgba(0, 0, 0,.2), rgba(0, 00, 0, 1)"
+              gradient="to bottom, rgba(0, 0, 0,.1), rgba(0, 00, 0, .7)"
               src="@/assets/home/industrias15.jpg"
             >
               <v-card-title class="text-shadow display-1 word-break-normal font-weight-black">Transporte</v-card-title>
@@ -148,7 +146,7 @@
               </div>
               <div class="text-center pb-4">
                 <v-btn x-small rounded outlined :ripple="{ center: true, class: 'green--text' }" color="green"
-                  >Más Info</v-btn
+                   to="/categories/transporte">Más Info</v-btn
                 >
               </div>
               <v-spacer></v-spacer>

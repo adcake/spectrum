@@ -132,6 +132,7 @@ export default {
       // { icon: 'history', text: 'History', route: '/history' },
     ],
     menuLinks: [
+      { icon: "", text: "Home", route: "/" },
       { icon: "", text: "Seguridad Pública", route: "/categories/publico" },
       { icon: "", text: "Infraestructuras Críticas", route: "/categories/critica" },
       { icon: "", text: "Comercial & Industrial", route: "/categories/industrial" },
