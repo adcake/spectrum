@@ -138,7 +138,7 @@
               class="white--text align-end"
               height="250px"
               gradient="to bottom, rgba(0, 0, 0,.2), rgba(0, 00, 0, 1)"
-              src="@/assets/home/industrias6.jpg"
+              src="@/assets/home/industrias15.jpg"
             >
               <v-card-title class="text-shadow display-1 word-break-normal font-weight-black">Transporte</v-card-title>
               <div class="px-4 pb-2">
