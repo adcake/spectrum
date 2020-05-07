@@ -127,7 +127,7 @@ export default {
     menu: [
       { icon: "call", text: "Contactanos", route: "/about" },
       { icon: "check_box", text: "Nuestras Marcas", route: "/marcas" },
-      { icon: "local_shipping", text: "Distribuidores", route: "/howto" },
+      // { icon: "local_shipping", text: "Distribuidores", route: "/howto" },
       { icon: "business", text: "Quienes Somos", route: "/quienes" }
       // { icon: 'history', text: 'History', route: '/history' },
     ],

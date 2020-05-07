@@ -7,7 +7,7 @@
         height="400"
         hide-delimiter-background
         show-arrows-on-hover
-        
+        transition="fade-transition"
       >
         <v-carousel-item v-for="(item, i) in banners" :key="i" :src="item.src">
           <v-row class="fill-height" align="center" justify="center">
@@ -65,9 +65,7 @@
                 </span>
               </div>
               <div class="text-center pb-4">
-                <v-btn x-small rounded outlined :ripple="{ center: true, class: 'green--text' }" color="green"
-                  to="/categories/publico">Más Info</v-btn
-                >
+                <v-btn small rounded color="primary" dark v-on="on" to="/categories/publico">Ver Más</v-btn>
               </div>
 
               <v-spacer></v-spacer>
@@ -93,9 +91,7 @@
                 </span>
               </div>
               <div class="text-center pb-4">
-                <v-btn x-small rounded outlined :ripple="{ center: true, class: 'green--text' }" color="green"
-                  to="/categories/critica">Más Info</v-btn
-                >
+                <v-btn small rounded color="primary" dark v-on="on" to="/categories/critica">Ver Más</v-btn>
               </div>
               <v-spacer></v-spacer>
             </v-img>
@@ -120,9 +116,7 @@
                 </span>
               </div>
               <div class="text-center pb-4">
-                <v-btn x-small rounded outlined :ripple="{ center: true, class: 'green--text' }" color="green"
-                  to="/categories/industrial" >Más Info</v-btn
-                >
+                <v-btn small rounded color="primary" dark v-on="on" to="/categories/industrial">Ver Más</v-btn>
               </div>
               <v-spacer></v-spacer>
             </v-img>
@@ -145,9 +139,8 @@
                 </span>
               </div>
               <div class="text-center pb-4">
-                <v-btn x-small rounded outlined :ripple="{ center: true, class: 'green--text' }" color="green"
-                   to="/categories/transporte">Más Info</v-btn
-                >
+                <v-btn small rounded color="primary" dark v-on="on" to="/categories/transporte">Ver Más</v-btn>
+                
               </div>
               <v-spacer></v-spacer>
             </v-img>
