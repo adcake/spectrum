@@ -68,7 +68,7 @@ export default {
           title: "Soporte de Ventas",
           height: "50",
           text:
-            "Spectrum Tecnología es el mayorista con mayor valor agregado de radios dos vías, accesorios y sistemas en Venezuela.  Con más de 10 años de experiencia, Spectrum ofrece un verdadero valor agregado al proveer asesoría en ventas, servicio técnico, apoyo en mercadeo y logística. Estamos comprometidos con la excelencia en servicios, competitividad en precios, disponibilidad de inventario y la más amplia variedad de productos en los segmentos profesional, aficionado, marino y aéreo."
+            "Spectrum Tecnología es el mayorista con mayor valor agregado de radios dos vías, accesorios y sistemas en Venezuela.  Con más de 10 años de experiencia, Spectrum ofrece un verdadero valor agregado al proveer asesoría en ventas, servicio técnico, apoyo en mercadeo y logística. Estamos comprometidos con la excelencia en servicios, competitividad en precios, disponibilidad de inventario y la más amplia variedad de productos en los segmentos profesional, aficionado, marino y aéreo.",
         },
         {
           color: "grey lighten-4",
@@ -76,7 +76,7 @@ export default {
           title: "La más amplia cartera de productos",
           height: "50",
           text:
-            "Al contar con equipos para los todos los segmentos de radiocomunicación, profesional, aficionado, marino y aéreo, nuestra variedad de productos es la más amplia del país.  Ofrecemos soluciones analógicas y digitales en los protocolos internacionales TETRA, NXDN y DMR, desde sistemas monositio (stand-alone) a redes integradas troncalizadas."
+            "Al contar con equipos para los todos los segmentos de radiocomunicación, profesional, aficionado, marino y aéreo, nuestra variedad de productos es la más amplia del país.  Ofrecemos soluciones analógicas y digitales en los protocolos internacionales TETRA, NXDN y DMR, desde sistemas monositio (stand-alone) a redes integradas troncalizadas.",
         },
         {
           color: "grey lighten-4",
@@ -84,7 +84,7 @@ export default {
           title: "Enfoque en Canales de Distribución",
           height: "50",
           text:
-            "Spectrum se dedica a comercializar soluciones a través de su red de distribuidores y revendedores.  Les ofrecemos una única parada donde obtendrá asistencia y experticia especializada la cual le permitirá ofrecer productos y sistemas fácilmente a sus clientes."
+            "Spectrum se dedica a comercializar soluciones a través de su red de distribuidores y revendedores.  Les ofrecemos una única parada donde obtendrá asistencia y experticia especializada la cual le permitirá ofrecer productos y sistemas fácilmente a sus clientes.",
         },
         {
           color: "grey lighten-4",
@@ -92,7 +92,7 @@ export default {
           title: "Altos niveles de disponibilidad",
           height: "50",
           text:
-            "Un alto nivel de capital atado a una alta disponibilidad de productos disponibles nos aseguran un de servicio de calidad a nuestros clientes."
+            "Un alto nivel de capital atado a una alta disponibilidad de productos disponibles nos aseguran un de servicio de calidad a nuestros clientes.",
         },
         {
           color: "grey lighten-4",
@@ -100,7 +100,7 @@ export default {
           title: "Envíos rápidos y confiables",
           height: "50",
           text:
-            "Al ser los envíos de pedidos rápidos y confiables una de nuestras máximas prioridades, contamos con despachos gratis y asegurados de lunes a jueves todas las semanas. *Ciertas condiciones aplican."
+            "Al ser los envíos de pedidos rápidos y confiables una de nuestras máximas prioridades, contamos con despachos gratis y asegurados de lunes a jueves todas las semanas. *Ciertas condiciones aplican.",
         },
         {
           color: "grey lighten-4",
@@ -108,7 +108,7 @@ export default {
           title: "Excelencia en Servicio Técnico",
           height: "50",
           text:
-            "Nuestro equipo de servicio técnico cuenta con el apoyo directo de todos los fabricantes y por ende están entrenados para proveer soporte de primera línea en todos los productos que vendemos lo cual le garantiza a nuestros distribuidores un servicio óptimo y oportuno."
+            "Nuestro equipo de servicio técnico cuenta con el apoyo directo de todos los fabricantes y por ende están entrenados para proveer soporte de primera línea en todos los productos que vendemos lo cual le garantiza a nuestros distribuidores un servicio óptimo y oportuno.",
         },
         {
           color: "grey lighten-4",
@@ -116,11 +116,11 @@ export default {
           title: "Equipo de Trabajo Capacitado",
           height: "50",
           text:
-            "Spectrum y sus fabricantes invierten en entrenamientos para todo su equipo y por ende le garantizamos a todos nuestros distribuidores una atención profesional especializada."
-        }
-      ]
+            "Spectrum y sus fabricantes invierten en entrenamientos para todo su equipo y por ende le garantizamos a todos nuestros distribuidores una atención profesional especializada.",
+        },
+      ],
     };
-  }
+  },
 };
 </script>
 

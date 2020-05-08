@@ -66,12 +66,12 @@
               </v-flex>
             </v-layout>
           </v-container>
-          </v-card>
+        </v-card>
       </v-layout>
     </v-container>
     <v-container>
       <v-layout row wrap>
-       <v-card>
+        <v-card>
           <v-container>
             <v-layout row>
               <v-flex md12>

@@ -8,13 +8,6 @@
         gradient="to bottom, rgb(213, 0, 0, .4), rgba(21,0,0,.1)"
         class="grey darken-4"
       ></v-img>
-      <!-- <v-carousel cycle height="auto" max-width="100%" hide-delimiter-background hide-delimiters show-arrows-on-hover>
-        <v-carousel-item v-for="(item, i) in banners" :key="i" :src="item.src">
-          <v-row class="fill-height" align="center" justify="center">
-            <div class="display-3">{{ item.slide }}</div>
-          </v-row>
-        </v-carousel-item>
-      </v-carousel> -->
     </v-row>
 
     <v-row class="pt-10 pb-5 px-2">

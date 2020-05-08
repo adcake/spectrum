@@ -17,7 +17,7 @@
     </row>
 
     <v-container>
-      <v-layout >
+      <v-layout>
         <v-card>
           <v-row class="pt-5 pb-5 px-10 " v-for="data in header" :key="data.id">
             <v-flex xs12 sm5 md4 class="align-self-center">

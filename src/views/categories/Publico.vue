@@ -111,7 +111,7 @@
           </v-container>
 
           <!-- SOLUCIONES CCTV - INFRA -RADIO - CECOM -->
-          <v-container fluid class="pt-5" grey lighten-3 grid-list-xs>
+          <v-container fluid class="pt-5"  grid-list-xs>
             <v-row class="px-10">
               <v-flex xs12 sm4 v-for="(item, i) in itemsSector" :key="i">
                 <div class="px-4 py-3">
