@@ -78,7 +78,7 @@
       </v-layout>
     </v-container>
 
-    <v-row class="px-2 pt-5 grey lighten-3">
+    <v-row class="px-2 mt-5 grey lighten-3">
       <v-flex xs12 class="py-10 my-10 align-self-center">
         <div class="text-justify text-center px-2">
           <p class="text-center font-weight-medium" :style="{ 'font-size': fontSize }">

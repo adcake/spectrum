@@ -649,35 +649,7 @@ export default {
           "Muchas administraciones y empresas ya han descubierto los beneficios de las exclusivas ventajas para el transporte de nuestras marcas. Proporciona imágenes nítidas, tanto en tiempo real como en grabaciones. Permite que cualquier persona autorizada acceda a la información desde cualquier parte y en cualquier momento. Activa la función de alertas y alarmas automáticas en caso de incidentes. Y crea una plataforma de videovigilancia rentable, flexible y adaptada al futuro.",
       },
     ],
-    subHeader: [
-      {
-        imageHeader: "",
-        subHeaderTitle: "",
-        subHeaderIcon: "",
-        subHeader: "",
-      },
-    ],
-
-    radiosEquip: [{ src: "" }],
-
-    logoTechs: [{ src: "" }],
-
-    techs: [{ src: "", text: "" }],
-
-    sectorOption: [
-      {
-        icon: "",
-        text: "",
-      },
-    ],
-
-    itemsSector: [
-      {
-        src: "",
-        icon: "",
-        text: "",
-      },
-    ],
+    
     itemsTransporte: [
       { title: "Comunicaciones de voz,", text: " Crear un entorno de transportes más seguro." },
       {
@@ -697,8 +669,6 @@ export default {
         text: "Reducir el tiempo de respuesta de incidentes.",
       },
     ],
-
-    itemsSpec: [{ title: "" }],
   }),
 
   computed: {
