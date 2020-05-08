@@ -3,7 +3,7 @@
     <row>
       <v-img
         src="@/assets/home/industrias2.jpg"
-        max-height="auto"
+        max-height="300"
         gradient="to bottom, rgb(213, 0, 0, .4), rgba(21,0,0,.1)"
         class="grey darken-4"
       >
