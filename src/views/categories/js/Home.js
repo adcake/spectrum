@@ -8,12 +8,12 @@ export default {
         return {
             banners: [
             {src: require('@/assets/banner/one.jpg')},
-            {src: require('@/assets/banner/two.jpg')},
-            {src: require('@/assets/banner/three.jpg')},
-            {src: require('@/assets/banner/four.jpg')},
-            {src: require('@/assets/banner/five.jpg')},
-            {src: require('@/assets/banner/six.jpg')},
-            {src: require('@/assets/banner/seven.jpg')},
+            // {src: require('@/assets/banner/two.jpg')},
+            // {src: require('@/assets/banner/three.jpg')},
+            // {src: require('@/assets/banner/four.jpg')},
+            // {src: require('@/assets/banner/five.jpg')},
+            // {src: require('@/assets/banner/six.jpg')},
+            // {src: require('@/assets/banner/seven.jpg')},
             ],
 
             industries: [
