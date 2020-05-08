@@ -7,7 +7,6 @@
         height="400"
         hide-delimiter-background
         show-arrows-on-hover
-        transition="fade-transition"
       >
         <v-carousel-item v-for="(item, i) in banners" :key="i" :src="item.src">
           <v-row class="fill-height" align="center" justify="center">

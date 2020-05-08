@@ -198,7 +198,7 @@ export default {
       ],
       subHeader: [
         {
-        imageHeader: require('@/assets/images/props/oilmining/header2.png'),
+        imageHeader: require('@/assets/images/props/industrial/header2.jpg'),
         subHeaderTitle: 'Protección Perimetral',
         subHeaderIcon: 'verified_user',
         subHeader: 'Intrusión, interrupción, lesión. Estas son las amenazas principales para la productividad, la rentabilidad y el bienestar de los empleados en sus instalaciones. Las soluciones de infraestructura crítica de Axis le permiten abordar las tres de forma completa y rentable, con un único sistema integrado. \r\n Nuestros sistemas de vigilancia inteligentes, abiertos y basados en IP están diseñados para que todas las partes puedan comunicarse entre sí. Están preparados para el futuro, son escalables y fáciles de integrar con otros sistemas. Además, lo más importante es que habilitan la supervisión de varios sitios de forma remota, desde una única sala de control.',},
@@ -214,9 +214,9 @@ export default {
         subHeader: 'Detecte y verifique un intruso potencial en su perímetro desde prácticamente cualquier ubicación en tiempo real. Haga que el radar y las cámaras térmicas y visuales detecten, verifiquen e identifiquen intrusos potenciales. Nuestros sistemas de vigilancia están diseñados para funcionar incluso en condiciones de iluminación complicadas o en oscuridad total. El análisis inteligente activa advertencias y alerta a su personal, lo cual ahorra tiempo y dinero en patrullas y en atender falsas alarmas. Las advertencias también pueden activar un anuncio pregrabado para disuadir al intruso.' , },
         {
         // imageHeader: require('@/assets/images/props/oilmining/header3.png'),
-        subHeaderTitle: 'Protección de la zona',
+        subHeaderTitle: 'Soluciones Comerciales',
         subHeaderIcon: 'adjust',
-        subHeader: 'Detecte cualquier actividad no deseada y realice un seguimiento de personas u objetos en varios sitios, con información sobre su velocidad, distancia y ángulo de movimiento. Identifique a personas en áreas amplias con cámaras con movimiento horizontal/vertical y zoom para observar áreas específicas de interés. Actúe sobre las alarmas y utilice audio pregrabado para impedir actividades no deseadas. Con una solución Axis, todo esto se puede gestionar desde una ubicación remota, en cualquier lugar y en cualquier momento.' , },
+        subHeader: 'Identifique a personas en áreas amplias con cámaras con movimiento horizontal/vertical y zoom para observar áreas específicas de interés. Actúe sobre las alarmas y utilice audio pregrabado para impedir actividades no deseadas. Con una solución Axis, todo esto se puede gestionar desde una ubicación remota, en cualquier lugar y en cualquier momento.' , },
         {
         // imageHeader: require('@/assets/images/props/oilmining/header3.png'),
         subHeaderTitle: 'Control de acceso',

@@ -80,10 +80,10 @@
                 <v-card flat>
                   <v-row align="center" justify="center">
                     <div class="text-justify text-center">
-                      <p class="py-3 text-center font-weight-bold text-uppercase">
+                      <p class="py-3 text-center font-weight-bold">
                         <br />
                         <span class="font-weight-bold black--text align-self-center display-1"
-                          >PORTFOLIO DE SOLUCIONES PARA SEGURIDAD PÚBLICA</span
+                          >Portafolio De Soluciones Para Seguridad Pública</span
                         >
                         <br /><span class="caption font-weight-bold primary--text"
                           >Soluciones para ciudades inteligentes.</span
@@ -145,9 +145,9 @@
                 <div class="text-justify text-center">
                   <p class="py-5 title text-center font-weight-bold text-uppercase">
                     <span class="font-weight-black black--text"
-                      >SOLUCIONES DE COMUNICACIÓN PROFESIONAL PARA SEGURIDAD PÚBLICA</span
+                      >Soluciones en Comunicaciones Críticas</span
                     >
-                    <br /><span class="caption font-weight-bold primary--text">TErrestrial Trunked RAdio</span>
+                    <br /><span class="caption font-weight-bold primary--text">Soluciones en Comunicaciones Críticas</span>
                   </p>
                 </div>
               </v-container>
@@ -162,7 +162,7 @@
               </v-container>
               <v-container fluid class="pt-5 pb-5" grey lighten-3 grid-list-xs>
                 <v-row class="px-10">
-                  <v-flex xs12 sm6 v-for="(item, i) in sectorOption" :key="i">
+                  <v-flex xs12 v-for="(item, i) in sectorOption" :key="i">
                     <div class="text-justify text-center px-4 py-3">
                       <span class="text-justify">
                         <p>

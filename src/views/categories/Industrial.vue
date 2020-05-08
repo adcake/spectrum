@@ -66,11 +66,37 @@
               </v-flex>
             </v-layout>
           </v-container>
+          </v-card>
+      </v-layout>
+    </v-container>
+    <v-container>
+      <v-layout row wrap>
+       <v-card>
+          <v-container>
+            <v-layout row>
+              <v-flex md12>
+                <v-card flat shaped class="py-5">
+                  <v-layout row wrap>
+                    <v-flex xs12 pa-2 class="align-self-center" v-for="data in subHeader" :key="data.id">
+                      <v-flex xs1 my-5></v-flex>
+                      <span class="align-self-center headline font-weight-bold px-10">
+                        <v-icon dark medium class="black--text">{{ data.subHeaderIcon }}</v-icon>
+                        {{ data.subHeaderTitle }}
+                      </span>
+                      <blockquote class="blockquote text-left text-justify px-10">{{ data.subHeader }}</blockquote>
+                      <v-img class="px-1" contain :src="data.imageHeader"></v-img>
+                    </v-flex>
+                  </v-layout>
+                </v-card>
+              </v-flex>
+            </v-layout>
+            <v-flex xs1 my-5></v-flex>
+          </v-container>
         </v-card>
       </v-layout>
     </v-container>
 
-    <v-row class="px-2 grey lighten-3">
+    <v-row class="px-2 mt-5 grey lighten-3">
       <v-flex xs12 class="py-10 my-10 align-self-center">
         <div class="text-justify text-center px-2">
           <p class="text-center font-weight-medium" :style="{ 'font-size': fontSize }">

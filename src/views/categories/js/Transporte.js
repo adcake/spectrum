@@ -660,87 +660,44 @@ export default {
       {
         headerTitle: "Nuevas posibilidades en entornos de transporte.",
         header:
-          "Muchas administraciones y empresas ya han descubierto los beneficios de las exclusivas ventajas para el transporte de Axis. Proporciona imágenes nítidas, tanto en tiempo real como en grabaciones. Permite que cualquier persona autorizada acceda a la información desde cualquier parte y en cualquier momento. Activa la función de alertas y alarmas automáticas en caso de incidentes. Y crea una plataforma de videovigilancia rentable, flexible y adaptada al futuro."
+          "Muchas administraciones y empresas ya han descubierto los beneficios de las exclusivas ventajas para el transporte de nuestras marcas. Proporciona imágenes nítidas, tanto en tiempo real como en grabaciones. Permite que cualquier persona autorizada acceda a la información desde cualquier parte y en cualquier momento. Activa la función de alertas y alarmas automáticas en caso de incidentes. Y crea una plataforma de videovigilancia rentable, flexible y adaptada al futuro."
       }
     ],
     subHeader: [
       {
-        imageHeader: require("@/assets/images/props/oilmining/header2.png"),
-        subHeaderTitle: "Protección Perimetral",
-        subHeaderIcon: "verified_user",
+        imageHeader: "",
+        subHeaderTitle: "",
+        subHeaderIcon: "",
         subHeader:
-          "Intrusión, interrupción, lesión. Estas son las amenazas principales para la productividad, la rentabilidad y el bienestar de los empleados en sus instalaciones. Las soluciones de infraestructura crítica de Axis le permiten abordar las tres de forma completa y rentable, con un único sistema integrado. \r\n Nuestros sistemas de vigilancia inteligentes, abiertos y basados en IP están diseñados para que todas las partes puedan comunicarse entre sí. Están preparados para el futuro, son escalables y fáciles de integrar con otros sistemas. Además, lo más importante es que habilitan la supervisión de varios sitios de forma remota, desde una única sala de control."
+          ""
       },
-      {
-        // imageHeader: require('@/assets/images/props/oilmining/header3.png'),
-        subHeaderTitle: "Proteja sus instalaciones críticas de intrusiones",
-        subHeaderIcon: "warning",
-        subHeader:
-          "Una solución de protección frente a intrusiones de Axis protege sus instalaciones de forma fiable. Cámaras visuales y térmicas con análisis incorporados combinados con seguimiento por radar para alertar a los operadores de la sala de control. Activan automáticamente advertencias pregrabadas a los posibles intrusos, que pueden ser identificados mediante cámaras PTZ. Dentro y alrededor del núcleo crítico, los sistemas de control de acceso de Axis no solo evitan el acceso no autorizado, sino que también le permiten supervisar las actividades de su personal. Asegúrese de contar siempre con las personas correctas, en los lugares correctos, que realicen lo correcto."
-      },
-      {
-        // imageHeader: require('@/assets/images/props/oilmining/header3.png'),
-        subHeaderTitle: "Protección perimetral",
-        subHeaderIcon: "security",
-        subHeader:
-          "Detecte y verifique un intruso potencial en su perímetro desde prácticamente cualquier ubicación en tiempo real. Haga que el radar y las cámaras térmicas y visuales detecten, verifiquen e identifiquen intrusos potenciales. Nuestros sistemas de vigilancia están diseñados para funcionar incluso en condiciones de iluminación complicadas o en oscuridad total. El análisis inteligente activa advertencias y alerta a su personal, lo cual ahorra tiempo y dinero en patrullas y en atender falsas alarmas. Las advertencias también pueden activar un anuncio pregrabado para disuadir al intruso."
-      },
-      {
-        // imageHeader: require('@/assets/images/props/oilmining/header3.png'),
-        subHeaderTitle: "Protección de la zona",
-        subHeaderIcon: "adjust",
-        subHeader:
-          "Detecte cualquier actividad no deseada y realice un seguimiento de personas u objetos en varios sitios, con información sobre su velocidad, distancia y ángulo de movimiento. Identifique a personas en áreas amplias con cámaras con movimiento horizontal/vertical y zoom para observar áreas específicas de interés. Actúe sobre las alarmas y utilice audio pregrabado para impedir actividades no deseadas. Con una solución Axis, todo esto se puede gestionar desde una ubicación remota, en cualquier lugar y en cualquier momento."
-      },
-      {
-        // imageHeader: require('@/assets/images/props/oilmining/header3.png'),
-        subHeaderTitle: "Control de acceso",
-        subHeaderIcon: "business",
-        subHeader:
-          "Supervisar las entradas y salidas para garantizar que solo el personal autorizado tiene acceso. Las soluciones de control de acceso de Axis ofrecen control en muchos niveles y en varios sitios y todo desde una única ubicación remota. Un edificio, una habitación dentro de este o un armario de la habitación. Nuestras soluciones van más allá del control. Le permiten controlar el bienestar de todas las personas que se encuentran en las instalaciones, especialmente en las zonas más críticas, sensibles o vulnerables."
-      }
     ],
 
     radiosEquip: [
-      { src: require("@/assets/images/props/publicsafety/radioPolice0.png") },
-      { src: require("@/assets/images/props/publicsafety/radioPolice1.png") },
-      { src: require("@/assets/images/props/publicsafety/radioPolice3.png") },
-      { src: require("@/assets/images/props/publicsafety/radioPolice4.png") }
+      { src: "" },
     ],
 
     logoTechs: [
-      { src: require("@/assets/logo/tecnologia/tetra.png") },
-      { src: require("@/assets/logo/tecnologia/p25.png") },
-      { src: require("@/assets/logo/tecnologia/lte.png") },
-      { src: require("@/assets/logo/tecnologia/icc.png") }
+      { src: "" },
     ],
 
     techs: [
-      { src: require("@/assets/images/props/techlist/tech1.jpg"), text: "Cumplimiento de tráfico" },
-      { text: "Gestión del flujo de tráfico" },
-      { text: "Aplicaciones de vehículos" },
-      { text: "Reconocimiento facial" }
+      { src: "", text: "" },
     ],
 
     sectorOption: [
       {
-        icon: "videocam",
+        icon: "",
         text:
-          "De abierto a encubierto, las soluciones de Sepura son confiables para proporcionar comunicaciones vitales incluso a las operaciones más avanzadas."
+          ""
       },
-      {
-        icon: "memory",
-        text:
-          " Tras proporcionar comunicaciones de radio avanzadas a más de 100 fuerzas policiales en todo el mundo, las soluciones de Sepura son confiables, robustas y seguras."
-      }
     ],
 
     itemsSector: [
       {
-        src: require("@/assets/images/hikvision/ptz.png"),
-        icon: "videocam",
-        text:
-          "Soluciones CCTV que cubran áreas críticas de una ciudad e integre datos de video entre dichas áreas para visualizar el estado de seguridad subyacente a nivel de ciudad."
+        src: "",
+        icon: "",
+        text: ""
       }
     ],
     itemsTransporte: [

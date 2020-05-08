@@ -4,7 +4,7 @@
       <v-img
         src="@/assets/home/industrias2.jpg"
         max-height="300"
-        gradient="to bottom, rgb(213, 0, 0, .7), rgba(21,0,0,.7)"
+        gradient="to bottom, rgb(213, 0, 0, .4), rgba(21,0,0,.1)"
         class="grey darken-4"
       >
         <v-row class="lightbox white--text pa-2 fill-height">
@@ -88,6 +88,7 @@
         </v-card>
       </v-layout>
     </v-container>
+    
     <v-row class="px-2 grey lighten-3">
       <v-flex xs12 class="py-10 my-10 align-self-center">
         <div class="text-justify text-center px-2">
