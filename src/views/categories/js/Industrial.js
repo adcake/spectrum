@@ -83,7 +83,7 @@ export default {
             {src: require('@/assets/images/props/comercial/picList3_1.jpg'), text1: "Control de acceso", text2: "K1A802 Value Series Fingerprint"},
             {src: require('@/assets/images/props/comercial/picList3_2.jpg'), text1: "4MP 4X DarkFighter IR Network Speed Dome", text2: "DS-2DE2A404IW-DE3/W"},
             {src: require('@/assets/images/props/comercial/picList3_3.jpg'), text1: "Pro 1103 Series Card Reader", text2: "DS-K1103"},
-            {src: require('@/assets/images/props/mining/picList3_4.png'), text1: "Perimeter Defender", text2: "DS-PI-Q250"},
+            {src: require('@/assets/images/props/mining/picList3_4.jpg'), text1: "Perimeter Defender", text2: "DS-PI-Q250"},
           ],
           
           descriptionListTitle: [
@@ -173,7 +173,7 @@ export default {
             {src: require('@/assets/images/props/comercial/picList3_1.jpg'), text1: "Control de acceso", text2: "K1A802 Value Series Fingerprint"},
             {src: require('@/assets/images/props/comercial/picList3_2.jpg'), text1: "4MP 4X DarkFighter IR Network Speed Dome", text2: "DS-2DE2A404IW-DE3/W"},
             {src: require('@/assets/images/props/comercial/picList3_3.jpg'), text1: "Pro 1103 Series Card Reader", text2: "DS-K1103"},
-            {src: require('@/assets/images/props/mining/picList3_4.png'), text1: "Perimeter Defender", text2: "DS-PI-Q250"},
+            {src: require('@/assets/images/props/mining/picList3_4.jpg'), text1: "Perimeter Defender", text2: "DS-PI-Q250"},
           ],
           
           descriptionListTitle: [
@@ -254,11 +254,11 @@ export default {
   
       itemsSector: [
           { src: require('@/assets/images/hikvision/ptz.png'), icon: 'videocam', text:'Soluciones CCTV que cubran áreas críticas de una ciudad e integre datos de video entre dichas áreas para visualizar el estado de seguridad subyacente a nivel de ciudad.' },
-          { src: require('@/assets/images/teltronic/nebula.png'), icon: 'memory', text: ' Infraestructura de comunicaciones radio TETRA y LTE Equipamiento para infraestructuras de red de transporte.' },
-          { src: require('@/assets/images/props/radios.png'), icon: 'wifi_tethering', text: 'Equipos radio móviles y portátiles con soporte de las mejores marcas en materia de seguridad púbica.' },
-          { src: require('@/assets/images/props/camerabody.png'), icon: 'videocam', text:'Consolas vehiculares y vídeo en movilidad en tiempo real.' },
+          { src: require('@/assets/images/teltronic/nebula.jpg'), icon: 'memory', text: ' Infraestructura de comunicaciones radio TETRA y LTE Equipamiento para infraestructuras de red de transporte.' },
+          { src: require('@/assets/images/props/radios.jpg'), icon: 'wifi_tethering', text: 'Equipos radio móviles y portátiles con soporte de las mejores marcas en materia de seguridad púbica.' },
+          { src: require('@/assets/images/props/camerabody.jpg'), icon: 'videocam', text:'Consolas vehiculares y vídeo en movilidad en tiempo real.' },
           { src: require('@/assets/images/props/videowall.png'), icon: 'memory', text: 'Unidades de despacho y centro de control para gestión centralizada.' },
-          { src: require('@/assets/images/props/portalify3.png'), icon: 'wifi_tethering', text: ' Centros de atención telefónica 911/112.' },
+          { src: require('@/assets/images/props/portalify3.jpg'), icon: 'wifi_tethering', text: ' Centros de atención telefónica 911/112.' },
           
       ],
       itemsTetra: [

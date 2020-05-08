@@ -69,17 +69,17 @@ export default {
             src: require("@/assets/images/props/publicsafety/radioPolice0.png"),
             title: "Conectar para mejorar la eficiencia",
             headerPic: "",
-            imageHeaderPic: require("@/assets/images/props/publicsafety/header.png"),
+            imageHeaderPic: require("@/assets/images/props/publicsafety/header.jpg"),
             subtitle: "Soluciones para ciudades inteligentes.",
             description:
               "Con la confianza de innumerables fuerzas policiales en todo el mundo, nuestras marcas y soluciones de comunicación especializadas brindan comunicaciones cifradas de voz y datos altamente seguras, una cobertura nítida en cualquier entorno y comunicación instantánea con otros servicios de emergencia y agencias de protección civil.",
             description2:
               "De abierto a encubierto, las soluciones de Spectrum son las más confiables para proporcionar comunicaciones vitales incluso a las operaciones más avanzadas.",
-            image2: require("@/assets/images/props/radios.png"),
+            image2: require("@/assets/images/props/radios.jpg"),
             image2Description: "Teltronic / PBS – Portable Base Station",
             description4:
               " Nuestras marcas proporcionan comunicaciones de avanzadas, con soluciones confiables, robustas y seguras.",
-            image4: require("@/assets/images/props/publicsafety/image4.png"),
+            image4: require("@/assets/images/props/publicsafety/image4.jpg"),
             image4Description: "Hikvision / DS-2DF6223-CX",
           },
         ],
@@ -171,7 +171,7 @@ export default {
             src: require("@/assets/images/props/publicsafety/radioPolice0.png"),
             title: "Transformando comunicaciones para servicios de ambulancia",
             headerPic: "",
-            imageHeaderPic: require("@/assets/images/props/health/header.png"),
+            imageHeaderPic: require("@/assets/images/props/health/header.jpg"),
             subtitle: "Soluciones para ciudades inteligentes.",
             description:
               "La seguridad es el núcleo de todos nuestros productos y su amplia cartera de soluciones tiene por objetivo proteger a los pacientes, el personal sanitario, las visitas y la propiedad. Spectrum Tenología ofrece protección, seguridad y fiabilidad apta para todos los entornos hospitalarios, desde el quirófano hasta la ambulancia.",
@@ -179,13 +179,13 @@ export default {
               "Entrega de comunicación rápida y confiable a los operadores de servicios de salud. Nuentras soluciones permiten tiempos de respuesta más rápidos y una prestación de servicio más eficiente al combinar comunicaciones de radio bidireccionales, mensajería, telefonía móvil y datos móviles.",
             description2:
               "Las organizaciones de ambulancias de todo el mundo actualmente usan nuestras marcas para sus sistemas de comunicaciones de respuesta a emergencias y disfrutan de los considerables beneficios proporcionados por las radios TETRA.",
-            image2: require("@/assets/images/props/radios.png"),
+            image2: require("@/assets/images/props/radios.jpg"),
             image2Description: "TETRA & DMR Radios, Sistemas & Aplicaciones",
             description3:
               "Spectrum Tecnología tiene un conocimiento profundo de los requisitos operativos y de comunicaciones de los servicios de ambulancia; entregando soluciones que pueden satisfacer las necesidades de ambulancia en cualquier parte del mundo. A través de radios de mano usadas por los paramédicos y radios móviles, instaladas en ambulancias, vehículos de respuesta rápida y motocicletas, nuestros euqipos entregan las comunicaciones clave requeridas por los equipos médicos de emergencia.",
             description4:
               " Nuestras marcas proporcionan comunicaciones de avanzadas, con soluciones confiables, robustas y seguras.",
-            image4: require("@/assets/images/props/health/image6.png"),
+            image4: require("@/assets/images/props/health/image6.jpg"),
             image4Description: "DS-MH2211 1080p Body Camera",
           },
         ],
@@ -276,7 +276,7 @@ export default {
             src: require("@/assets/images/props/publicsafety/radioPolice0.png"),
             title: "Soluciones que pueden soportar el calor.",
             headerPic: "",
-            imageHeaderPic: require("@/assets/images/props/fire/header.png"),
+            imageHeaderPic: require("@/assets/images/props/fire/header.jpg"),
             subtitle: "Soluciones para ciudades inteligentes.",
             description:
               "Con la confianza de numerosos servicios de bomberos en todo el mundo, nuestras marcas especializadas brindan comunicaciones seguras de voz y datos con excelente claridad de audio incluso en los entornos operativos más exigentes.",
@@ -284,13 +284,13 @@ export default {
               "Nuestras soluciones de comunicaciones, basadas en el estándar TETRA y tecnologías de banda ancha, proporcionan comunicación y transferencia continua  datos entre los centros de control, los vehículos y los que están en tierra. Esto garantiza que todos los recursos estén totalmente informados y actualizados en cada fase de la implementación.",
             description2:
               "Las organizaciones de incendio de todo el mundo actualmente usan nuestras marcas para sus sistemas de comunicaciones de respuesta a emergencias y disfrutan de los considerables beneficios proporcionados por las radios TETRA.",
-            image2: require("@/assets/images/props/radios.png"),
+            image2: require("@/assets/images/props/radios.jpg"),
             image2Description: "TETRA & DMR Radios, Sistemas & Aplicaciones",
             description3:
               "Spectrum Tecnología tiene un conocimiento profundo de los requisitos operativos y de comunicaciones de los servicios de ambulancia; entregando soluciones que pueden satisfacer las necesidades de ambulancia en cualquier parte del mundo. A través de radios de mano usadas por los paramédicos y radios móviles, instaladas en ambulancias, vehículos de respuesta rápida y motocicletas, nuestros euqipos entregan las comunicaciones clave requeridas por los equipos médicos de emergencia.",
             description4:
               " Nuestras marcas proporcionan comunicaciones de avanzadas, con soluciones confiables, robustas y seguras.",
-            image4: require("@/assets/images/props/fire/image6.png"),
+            image4: require("@/assets/images/props/fire/image6.jpg"),
             image4Description: "NEXEDGE VHF/UHF/700-800",
           },
         ],
@@ -379,7 +379,7 @@ export default {
             src: require("@/assets/images/props/publicsafety/radioPolice0.png"),
             title: "Vigilancia encubierta",
             headerPic: "",
-            imageHeaderPic: require("@/assets/images/props/fire/header.png"),
+            imageHeaderPic: require("@/assets/images/props/fire/header.jpg"),
             subtitle: "Soluciones para ciudades inteligentes.",
             description:
               "Los productos encubiertos de Spectrum Tecnología proporcionan una solución perfectamente integrada para equipos encubiertos, lo que les permite comunicarse de manera clara y efectiva en una amplia gama de ubicaciones.",
@@ -387,13 +387,13 @@ export default {
               "Nuestras soluciones permiten que los oficiales de vigilancia encubiertos se comuniquen a la vez que se mantienen discretos.",
             description2:
               "Con soluciones para conectarse a TETRA, GSM y Wi-Fi, las soluciones de Sepura ofrecen una serie de opciones alternativas para fortalecer la seguridad del usuario final y ampliar la flexibilidad.",
-            image2: require("@/assets/images/props/radios.png"),
+            image2: require("@/assets/images/props/radios.jpg"),
             image2Description: "TETRA & DMR Radios, Sistemas & Aplicaciones",
             description3:
               "Spectrum Tecnología tiene un conocimiento profundo de los requisitos operativos y de comunicaciones de los servicios de ambulancia; entregando soluciones que pueden satisfacer las necesidades de ambulancia en cualquier parte del mundo. A través de radios de mano usadas por los paramédicos y radios móviles, instaladas en ambulancias, vehículos de respuesta rápida y motocicletas, nuestros euqipos entregan las comunicaciones clave requeridas por los equipos médicos de emergencia.",
             description4:
               " Nuestras marcas proporcionan comunicaciones de avanzadas, con soluciones confiables, robustas y seguras.",
-            image4: require("@/assets/images/props/fire/image6.png"),
+            image4: require("@/assets/images/props/fire/image6.jpg"),
             image4Description: "NEXEDGE VHF/UHF/700-800",
           },
         ],
@@ -470,18 +470,18 @@ export default {
           "Soluciones CCTV que cubran áreas críticas de una ciudad e integre datos de video entre dichas áreas para visualizar el estado de seguridad subyacente a nivel de ciudad.",
       },
       {
-        src: require("@/assets/images/teltronic/nebula.png"),
+        src: require("@/assets/images/teltronic/nebula.jpg"),
         icon: "memory",
         text:
           " Infraestructura de comunicaciones radio TETRA y LTE Equipamiento para infraestructuras de red de transporte.",
       },
       {
-        src: require("@/assets/images/props/radios.png"),
+        src: require("@/assets/images/props/radios.jpg"),
         icon: "wifi_tethering",
         text: "Equipos radio móviles y portátiles con soporte de las mejores marcas en materia de seguridad púbica.",
       },
       {
-        src: require("@/assets/images/props/camerabody.png"),
+        src: require("@/assets/images/props/camerabody.jpg"),
         icon: "videocam",
         text: "Consolas vehiculares y vídeo en movilidad en tiempo real.",
       },
@@ -491,7 +491,7 @@ export default {
         text: "Unidades de despacho y centro de control para gestión centralizada.",
       },
       {
-        src: require("@/assets/images/props/portalify3.png"),
+        src: require("@/assets/images/props/portalify3.jpg"),
         icon: "wifi_tethering",
         text: " Centros de atención telefónica 911/112.",
       },

@@ -67,7 +67,7 @@
                 </span>
               </div>
               <div class="text-center pb-4">
-                <v-btn small rounded color="primary" dark v-on="on" to="/categories/publico">Ver Más</v-btn>
+                <v-btn small rounded color="primary" dark  to="/categories/publico">Ver Más</v-btn>
               </div>
 
               <v-spacer></v-spacer>
@@ -93,7 +93,7 @@
                 </span>
               </div>
               <div class="text-center pb-4">
-                <v-btn small rounded color="primary" dark v-on="on" to="/categories/critica">Ver Más</v-btn>
+                <v-btn small rounded color="primary" dark  to="/categories/critica">Ver Más</v-btn>
               </div>
               <v-spacer></v-spacer>
             </v-img>
@@ -118,7 +118,7 @@
                 </span>
               </div>
               <div class="text-center pb-4">
-                <v-btn small rounded color="primary" dark v-on="on" to="/categories/industrial">Ver Más</v-btn>
+                <v-btn small rounded color="primary" dark  to="/categories/industrial">Ver Más</v-btn>
               </div>
               <v-spacer></v-spacer>
             </v-img>
@@ -141,7 +141,7 @@
                 </span>
               </div>
               <div class="text-center pb-4">
-                <v-btn small rounded color="primary" dark v-on="on" to="/categories/transporte">Ver Más</v-btn>
+                <v-btn small rounded color="primary" dark  to="/categories/transporte">Ver Más</v-btn>
                 
               </div>
               <v-spacer></v-spacer>

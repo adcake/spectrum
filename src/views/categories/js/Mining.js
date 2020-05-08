@@ -62,13 +62,13 @@ export default {
             {
             src: require('@/assets/images/props/publicsafety/radioPolice0.png'), 
             title: "Transformando comunicaciones para servicios de ambulancia", 
-            headerPic: '', imageHeaderPic: require('@/assets/images/props/mining2/header.png'),
+            headerPic: '', imageHeaderPic: require('@/assets/images/props/mining2/header.jpg'),
             subtitle: "Soluciones para ciudades inteligentes.", 
             description: "Nuestras completas soluciones especializadas le brindan una poderosa red de datos y voz que puede automatizar y agilizar procesos esenciales, brindando datos precisos y consistentes en tiempo real, mayor seguridad de los trabajadores y una protección de activos superior.", 
             description1: "Altamente seguro, y sin un solo punto de falla, nuestros sistemas pueden mantenerlo en comunicación cuando otros sistemas fallan. Y nuestros terminales resistentes pueden lidiar con algunas de las condiciones más duras de la tierra y sin comprometer la funcionalidad.",  
-            description2:'Con opciones intrínsecamente seguras que cumplen con los estándares IECEx / ATEX, nuestras soluciones especializadas proporcionan una poderosa red de voz y datos que puede automatizar y agilizar procesos esenciales, proporcionando una mayor seguridad en el sitio y una protección de activos superior.', image2: require('@/assets/images/props/radios.png'), image2Description: "TETRA & DMR Radios, Sistemas & Aplicaciones" , 
+            description2:'Con opciones intrínsecamente seguras que cumplen con los estándares IECEx / ATEX, nuestras soluciones especializadas proporcionan una poderosa red de voz y datos que puede automatizar y agilizar procesos esenciales, proporcionando una mayor seguridad en el sitio y una protección de activos superior.', image2: require('@/assets/images/props/radios.jpg'), image2Description: "TETRA & DMR Radios, Sistemas & Aplicaciones" , 
             description3: 'La seguridad del trabajador se prioriza a través de funciones como Man-Down, que usa sensores de movimiento para detectar la falta de movimiento, y Lone Worker, que se puede configurar para realizar una llamada de emergencia si se detecta un cambio de estado.',
-            description4: 'Las compañías mineras más grandes del mundo confían en nuestras marcas para su seguridad y funcionamiento.', image4: require('@/assets/images/props/mining2/image2.png'), image4Description: "NEXEDGE NXDN and NEXEDGE DMR "
+            description4: 'Las compañías mineras más grandes del mundo confían en nuestras marcas para su seguridad y funcionamiento.', image4: require('@/assets/images/props/mining2/image2.jpg'), image4Description: "NEXEDGE NXDN and NEXEDGE DMR "
             
             },
           ],
@@ -138,13 +138,13 @@ export default {
             {
             src: require('@/assets/images/props/publicsafety/radioPolice0.png'), 
             title: "Soluciones con seguridad intrínseca para entornos de riesgo crítico.", 
-            headerPic: '', imageHeaderPic: require('@/assets/images/props/mining/header.png'),
+            headerPic: '', imageHeaderPic: require('@/assets/images/props/mining/header.jpg'),
             subtitle: "Infraestructuras Críticas.", 
             description: "Las empresas de petróleo y gas operan en un sector muy competitivo en el que los problemas de infraestructura o producción conllevan enormes pérdidas económicas. Para garantizar el funcionamiento continuo y eficaz, a la vez que se cumplen todas las normas de protección, seguridad y medio ambiente, la vigilancia de vídeo en red juega un papel muy importante en toda la cadena de suministro.", 
             description1: "La integración de la vigilancia por vídeo en el sistema de producción le permite supervisar la producción de forma remota e inspeccionar y comprobar visualmente qué funciones y procesos se desarrollan correctamente. Así, puede prever el mantenimiento necesario, incluso en zonas de difícil acceso, y ofrecer ayuda remota mediante mantenimiento planeado.",  
-            description2:'Los corredores de tuberías, ubicados en zonas enormes y remotas, son la parte más vulnerable de la cadena de suministro y la de más costosa protección. La supervisión remota es imprescindible para proteger eficazmente contra daños la compleja red de conductos. Nuestra solución de protección perimetral proporciona a los operadores información visual para que puedan tomar decisiones acertadas antes de enviar al equipo de trabajo correspondiente.', image2: require('@/assets/images/props/mining/picList4.png'), image2Description: "TETRA & DMR Radios, Sistemas & Aplicaciones" , 
+            description2:'Los corredores de tuberías, ubicados en zonas enormes y remotas, son la parte más vulnerable de la cadena de suministro y la de más costosa protección. La supervisión remota es imprescindible para proteger eficazmente contra daños la compleja red de conductos. Nuestra solución de protección perimetral proporciona a los operadores información visual para que puedan tomar decisiones acertadas antes de enviar al equipo de trabajo correspondiente.', image2: require('@/assets/images/props/mining/picList4.jpg'), image2Description: "TETRA & DMR Radios, Sistemas & Aplicaciones" , 
             description3: 'La protección de los empleados, el público y el medio ambiente es nuestra principal prioridad. La integración del vídeo en red con sistemas HSE contribuye a garantizar que se siguen las reglas y los procesos de seguridad y que las herramientas y los equipos se gestionan correctamente. Nuestras soluciones proporcionan información esencial en tiempo real para identificar riesgos, lo que permite reaccionar inmediatamente y, potencialmente, salvar vidas.',
-            description4: 'Nuestras marcas proporcionan comunicaciones de avanzadas, con soluciones confiables, robustas y seguras.', image4: require('@/assets/images/props/mining/image4.png'), image4Description: "Hikvision / DS-2DF6223-CX",
+            description4: 'Nuestras marcas proporcionan comunicaciones de avanzadas, con soluciones confiables, robustas y seguras.', image4: require('@/assets/images/props/mining/image4.jpg'), image4Description: "Hikvision / DS-2DF6223-CX",
             description5: 'Seguridad Intrínseca (Intrinsic safety-IS) es una técnica de protección para operación segura de equipos eléctricos en áreas peligrosas que limita que se encienda la energía eléctrica y térmica. En refinerías petroquímicas y minas, se encuentran áreas con concentraciones peligrosas de gases o polvos inflamables. Como una disciplina, es la palicación de la seguridad intrínseca en la instrumentación. Los circuitos de alto poder tales como los motores eléctricos o de luz no pueden usar métodos de protección intrínsecamente seguros. Todos los radios, accesorios de audio y sensores desarrollados por terceros que integran las soluciones Hytera cuentan con certificación IS para cumplir con los requerimientos de seguridad de este ambiente de trabajo.', descriptionTitle5: '¿Qué es Seguridad Intrínseca?',
             
             },
@@ -157,10 +157,10 @@ export default {
           ],
 
           picList3: [
-            {src: require('@/assets/images/props/mining/picList3_1.png'), text1: "Cámaras térmicas", text2: "HikvisionDS-2TD2466-50Y"},
-            {src: require('@/assets/images/props/mining/picList3_2.png'), text1: "Cámaras protegidas contra explosiones", text2: "DS-2XE6126FWD-HS"},
-            {src: require('@/assets/images/props/mining/picList3_3.png'), text1: "Control de acceso", text2: "DS-K1104"},
-            {src: require('@/assets/images/props/mining/picList3_4.png'), text1: "Perimeter Defender", text2: "DS-PI-Q250"},
+            {src: require('@/assets/images/props/mining/picList3_1.jpg'), text1: "Cámaras térmicas", text2: "HikvisionDS-2TD2466-50Y"},
+            {src: require('@/assets/images/props/mining/picList3_2.jpg'), text1: "Cámaras protegidas contra explosiones", text2: "DS-2XE6126FWD-HS"},
+            {src: require('@/assets/images/props/mining/picList3_3.jpg'), text1: "Control de acceso", text2: "DS-K1104"},
+            {src: require('@/assets/images/props/mining/picList3_4.jpg'), text1: "Perimeter Defender", text2: "DS-PI-Q250"},
           ],
 
 
@@ -251,7 +251,7 @@ export default {
             {src: require('@/assets/images/props/comercial/picList3_1.jpg'), text1: "Control de acceso", text2: "K1A802 Value Series Fingerprint"},
             {src: require('@/assets/images/props/comercial/picList3_2.jpg'), text1: "4MP 4X DarkFighter IR Network Speed Dome", text2: "DS-2DE2A404IW-DE3/W"},
             {src: require('@/assets/images/props/comercial/picList3_3.jpg'), text1: "Pro 1103 Series Card Reader", text2: "DS-K1103"},
-            {src: require('@/assets/images/props/mining/picList3_4.png'), text1: "Perimeter Defender", text2: "DS-PI-Q250"},
+            {src: require('@/assets/images/props/mining/picList3_4.jpg'), text1: "Perimeter Defender", text2: "DS-PI-Q250"},
           ],
           
           descriptionListTitle: [
@@ -328,7 +328,7 @@ export default {
                 {listingDes: "Proporcionar solución de problemas y asistencia remota con mantenimiento y soporte."},
             ],
             description3: '',
-            description4: 'Nuestras marcas han estado trabajando por más de 40 años diseñando, fabricando y desplegando sistemas de comunicación para voz y datos en instalaciones críticas.', image4: require('@/assets/images/props/mining/picList3_4.png'), image4Description: "Perimeter Defender DS-PI-Q250"
+            description4: 'Nuestras marcas han estado trabajando por más de 40 años diseñando, fabricando y desplegando sistemas de comunicación para voz y datos en instalaciones críticas.', image4: require('@/assets/images/props/mining/picList3_4.jpg'), image4Description: "Perimeter Defender DS-PI-Q250"
             
             },
           ],
@@ -343,7 +343,7 @@ export default {
             {src: require('@/assets/images/props/comercial/picList3_1.jpg'), text1: "Control de acceso", text2: "K1A802 Value Series Fingerprint"},
             {src: require('@/assets/images/props/comercial/picList3_2.jpg'), text1: "4MP 4X DarkFighter IR Network Speed Dome", text2: "DS-2DE2A404IW-DE3/W"},
             {src: require('@/assets/images/props/comercial/picList3_3.jpg'), text1: "Pro 1103 Series Card Reader", text2: "DS-K1103"},
-            {src: require('@/assets/images/props/mining/picList3_4.png'), text1: "Perimeter Defender", text2: "DS-PI-Q250"},
+            {src: require('@/assets/images/props/mining/picList3_4.jpg'), text1: "Perimeter Defender", text2: "DS-PI-Q250"},
           ],
           
           descriptionListTitle: [
@@ -367,7 +367,7 @@ export default {
       ],
       subHeader: [
         {
-        imageHeader: require('@/assets/images/props/oilmining/header2.png'),
+        imageHeader: require('@/assets/images/props/oilmining/header2.jpg'),
         subHeaderTitle: 'Protección Perimetral',
         subHeaderIcon: 'verified_user',
         subHeader: 'Intrusión, interrupción y daños. Estas son las amenazas principales para la productividad, la rentabilidad y el bienestar de los empleados en sus instalaciones. Nuestras soluciones de infraestructura crítica le permiten abordar las tres de forma completa y rentable, con un único sistema integrado. \r\n Nuestros sistemas de vigilancia inteligentes, abiertos y basados en IP están diseñados para que todas las partes puedan comunicarse entre sí. Están preparados para el futuro, son escalables y fáciles de integrar con otros sistemas. Además, lo más importante es que habilitan la supervisión de varios sitios de forma remota, desde una única sala de control.',},
@@ -423,11 +423,11 @@ export default {
   
       itemsSector: [
           { src: require('@/assets/images/hikvision/ptz.png'), icon: 'videocam', text:'Soluciones CCTV que cubran áreas críticas de una ciudad e integre datos de video entre dichas áreas para visualizar el estado de seguridad subyacente a nivel de ciudad.' },
-          { src: require('@/assets/images/teltronic/nebula.png'), icon: 'memory', text: ' Infraestructura de comunicaciones radio TETRA y LTE Equipamiento para infraestructuras de red de transporte.' },
-          { src: require('@/assets/images/props/radios.png'), icon: 'wifi_tethering', text: 'Equipos radio móviles y portátiles con soporte de las mejores marcas en materia de seguridad púbica.' },
-          { src: require('@/assets/images/props/camerabody.png'), icon: 'videocam', text:'Consolas vehiculares y vídeo en movilidad en tiempo real.' },
+          { src: require('@/assets/images/teltronic/nebula.jpg'), icon: 'memory', text: ' Infraestructura de comunicaciones radio TETRA y LTE Equipamiento para infraestructuras de red de transporte.' },
+          { src: require('@/assets/images/props/radios.jpg'), icon: 'wifi_tethering', text: 'Equipos radio móviles y portátiles con soporte de las mejores marcas en materia de seguridad púbica.' },
+          { src: require('@/assets/images/props/camerabody.jpg'), icon: 'videocam', text:'Consolas vehiculares y vídeo en movilidad en tiempo real.' },
           { src: require('@/assets/images/props/videowall.png'), icon: 'memory', text: 'Unidades de despacho y centro de control para gestión centralizada.' },
-          { src: require('@/assets/images/props/portalify3.png'), icon: 'wifi_tethering', text: ' Centros de atención telefónica 911/112.' },
+          { src: require('@/assets/images/props/portalify3.jpg'), icon: 'wifi_tethering', text: ' Centros de atención telefónica 911/112.' },
           
       ],
       itemsTetra: [

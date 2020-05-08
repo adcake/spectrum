@@ -72,7 +72,13 @@
               </v-flex>
             </v-layout>
           </v-container>
+        </v-card>
+      </v-layout>
+    </v-container>
 
+    <v-container>
+      <v-layout row>
+        <v-card>
           <!-- SAFE CITY -->
           <v-container fluid class="pt-0 pb-5">
             <v-row class="px-10">
@@ -144,10 +150,10 @@
               <v-container fluid grid-list-xs>
                 <div class="text-justify text-center">
                   <p class="py-5 title text-center font-weight-bold text-uppercase">
-                    <span class="font-weight-black black--text"
+                    <span class="font-weight-black black--text">Soluciones en Comunicaciones Críticas</span>
+                    <br /><span class="caption font-weight-bold primary--text"
                       >Soluciones en Comunicaciones Críticas</span
                     >
-                    <br /><span class="caption font-weight-bold primary--text">Soluciones en Comunicaciones Críticas</span>
                   </p>
                 </div>
               </v-container>

@@ -67,7 +67,7 @@ export default {
               "Cree y mantenga un entorno donde los clientes y el personal se sientan seguros, tanto dentro de su tienda como en los alrededores.",
             description4:
               "Las compañías mineras más grandes del mundo confían en nuestras marcas para su seguridad y funcionamiento.",
-            image4: require("@/assets/images/props/radios.png"),
+            image4: require("@/assets/images/props/radios.jpg"),
             image4Description: "Terminales Kenwood"
           }
         ],
@@ -111,7 +111,7 @@ export default {
             text2: "DS-K1103"
           },
           {
-            src: require("@/assets/images/props/mining/picList3_4.png"),
+            src: require("@/assets/images/props/mining/picList3_4.jpg"),
             text1: "Perimeter Defender",
             text2: "DS-PI-Q250"
           }
@@ -319,7 +319,7 @@ export default {
             text2: "DS-96128NI-I24"
           },
           {
-            src: require("@/assets/images/props/mining/picList3_4.png"),
+            src: require("@/assets/images/props/mining/picList3_4.jpg"),
             text1: "Perimeter Defender",
             text2: "DS-PI-Q250"
           }
@@ -492,7 +492,7 @@ export default {
             text2: "DS-96128NI-I24"
           },
           {
-            src: require("@/assets/images/props/mining/picList3_4.png"),
+            src: require("@/assets/images/props/mining/picList3_4.jpg"),
             text1: "Perimeter Defender",
             text2: "DS-PI-Q250"
           }
@@ -632,7 +632,7 @@ export default {
             text2: "DS-K1103"
           },
           {
-            src: require("@/assets/images/props/mining/picList3_4.png"),
+            src: require("@/assets/images/props/mining/picList3_4.jpg"),
             text1: "Perimeter Defender",
             text2: "DS-PI-Q250"
           }
