@@ -3,7 +3,7 @@
     <row>
       <v-img
         src="@/assets/home/industrias2.jpg"
-        max-height="300"
+        max-height="auto"
         gradient="to bottom, rgb(213, 0, 0, .4), rgba(21,0,0,.1)"
         class="grey darken-4"
       >
@@ -17,7 +17,7 @@
     </row>
 
     <v-container>
-      <v-layout row>
+      <v-layout >
         <v-card>
           <v-row class="pt-5 pb-5 px-10 " v-for="data in header" :key="data.id">
             <v-flex xs12 sm5 md4 class="align-self-center">
@@ -64,7 +64,13 @@
               </v-flex>
             </v-layout>
           </v-container>
+        </v-card>
+      </v-layout>
+    </v-container>
 
+    <v-container>
+      <v-layout>
+        <v-card>
           <v-container>
             <v-layout row>
               <v-flex md12>
@@ -88,8 +94,8 @@
         </v-card>
       </v-layout>
     </v-container>
-    
-    <v-row class="px-2 grey lighten-3">
+
+    <v-row class="px-2 mt-5 grey lighten-3">
       <v-flex xs12 class="py-10 my-10 align-self-center">
         <div class="text-justify text-center px-2">
           <p class="text-center font-weight-medium" :style="{ 'font-size': fontSize }">

@@ -4,9 +4,12 @@
     <v-row>
       <v-carousel
         cycle
-        height="400"
+        height="auto"
+        max-width="100%"
         hide-delimiter-background
+        hide-delimiters
         show-arrows-on-hover
+        
       >
         <v-carousel-item v-for="(item, i) in banners" :key="i" :src="item.src">
           <v-row class="fill-height" align="center" justify="center">

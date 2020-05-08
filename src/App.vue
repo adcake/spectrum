@@ -69,7 +69,10 @@
 
       <template v-slot:extension>
         <v-tabs  align-with-title class="d-none d-md-flex hidden-md-and-down">
-          <v-tab v-for="item in menuLinks" :key="item.id" class="body-2" :to='item.route'>{{ item.text }}</v-tab>
+          <v-tab v-for="item in menuLinks" :key="item.id" class="body-2" :to='item.route'>
+            <v-icon>{{ item.icon }}</v-icon>
+            {{ item.text }}
+          </v-tab>
         </v-tabs>
       </template>
 
@@ -132,7 +135,7 @@ export default {
       // { icon: 'history', text: 'History', route: '/history' },
     ],
     menuLinks: [
-      { icon: "", text: "Home", route: "/" },
+      { icon: "", text: "inicio", route: "/" },
       { icon: "", text: "Seguridad Pública", route: "/categories/publico" },
       { icon: "", text: "Infraestructuras Críticas", route: "/categories/critica" },
       { icon: "", text: "Comercial & Industrial", route: "/categories/industrial" },
