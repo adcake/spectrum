@@ -1,8 +1,8 @@
 <template>
   <v-app id="inspire">
     <v-navigation-drawer v-model="drawer" app disable-resize-watcher>
-      <v-list dense >
-        <v-list-item link  to="/">
+      <v-list dense>
+        <v-list-item link to="/">
           <v-list-item-action>
             <v-icon>home</v-icon>
           </v-list-item-action>
@@ -11,7 +11,7 @@
           </v-list-item-content>
         </v-list-item>
         <v-list-item link to="/categories/publico">
-          <v-list-item-content >
+          <v-list-item-content>
             <v-list-item-title>Seguridad Pública</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
@@ -68,8 +68,8 @@
       </v-menu>
 
       <template v-slot:extension>
-        <v-tabs  align-with-title class="d-none d-md-flex hidden-md-and-down">
-          <v-tab v-for="item in menuLinks" :key="item.id" class="body-2" :to='item.route'>
+        <v-tabs align-with-title class="d-none d-md-flex hidden-md-and-down">
+          <v-tab v-for="item in menuLinks" :key="item.id" class="body-2" :to="item.route">
             <v-icon>{{ item.icon }}</v-icon>
             {{ item.text }}
           </v-tab>
@@ -123,7 +123,7 @@
 <script>
 export default {
   props: {
-    source: String
+    source: String,
   },
   data: () => ({
     drawer: false,
@@ -131,7 +131,7 @@ export default {
       { icon: "call", text: "Contactanos", route: "/about" },
       { icon: "check_box", text: "Nuestras Marcas", route: "/marcas" },
       // { icon: "local_shipping", text: "Distribuidores", route: "/howto" },
-      { icon: "business", text: "Quienes Somos", route: "/quienes" }
+      { icon: "business", text: "Quienes Somos", route: "/quienes" },
       // { icon: 'history', text: 'History', route: '/history' },
     ],
     menuLinks: [
@@ -142,7 +142,7 @@ export default {
       { icon: "", text: "Transporte", route: "/categories/transporte" },
     ],
 
-    icons: ["fab fa-whatsapp", "fab fa-instagram"]
-  })
+    icons: ["fab fa-whatsapp", "fab fa-instagram"],
+  }),
 };
 </script>

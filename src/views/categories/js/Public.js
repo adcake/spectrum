@@ -1,7 +1,5 @@
 // @ is an alias to /src
-import PublicDialog from '@/views/categories/modules/PublicDialog.vue';
-
-
+import PublicDialog from "@/views/categories/modules/PublicDialog.vue";
 
 export default {
   methods: {
@@ -45,18 +43,18 @@ export default {
         ],
 
         picList1: [
-          { src: require("@/assets/images/props/publicsafety/radioPolice0.png"), text1: "Sepura", text2: " STP-9000" },
+          { src: require("@/assets/images/props/publicsafety/radioPolice0.jpg"), text1: "Sepura", text2: " STP-9000" },
           {
-            src: require("@/assets/images/props/publicsafety/radioPolice1.png"),
+            src: require("@/assets/images/props/publicsafety/radioPolice1.jpg"),
             text1: "Kenwood",
             text2: "TK-2402VK/3402UK",
           },
           {
-            src: require("@/assets/images/props/publicsafety/radioPolice3.png"),
+            src: require("@/assets/images/props/publicsafety/radioPolice3.jpg"),
             text1: "Icom",
             text2: "IC-F4161/3161",
           },
-          { src: require("@/assets/images/props/publicsafety/radioPolice4.png"), text1: "Hytera", text2: "PD 786" },
+          { src: require("@/assets/images/props/publicsafety/radioPolice4.jpg"), text1: "Hytera", text2: "PD 786" },
         ],
         publicSafetyInfo: [
           { title: "Pre-fab homes", src: "https://cdn.vuetifyjs.com/images/cards/house.jpg", flex: 12 },
@@ -66,7 +64,7 @@ export default {
         ],
         description: [
           {
-            src: require("@/assets/images/props/publicsafety/radioPolice0.png"),
+            src: require("@/assets/images/props/publicsafety/radioPolice0.jpg"),
             title: "Conectar para mejorar la eficiencia",
             headerPic: "",
             imageHeaderPic: require("@/assets/images/props/publicsafety/header.jpg"),
@@ -136,10 +134,10 @@ export default {
         texts: [{}, {}],
 
         picList1: [
-          { src: require("@/assets/images/props/health/radio0.png"), text1: "Sepura", text2: " SC21" },
-          { src: require("@/assets/images/props/health/radio4.png"), text1: "Kenwood", text2: "TK-2402VK/3402UK" },
-          { src: require("@/assets/images/props/health/radio5.png"), text1: "Icom", text2: "F52D/F52D UL (IS)" },
-          { src: require("@/assets/images/props/health/radio6.png"), text1: "Hytera", text2: "PD 786" },
+          { src: require("@/assets/images/props/health/radio0.jpg"), text1: "Sepura", text2: " SC21" },
+          { src: require("@/assets/images/props/health/radio4.jpg"), text1: "Kenwood", text2: "TK-2402VK/3402UK" },
+          { src: require("@/assets/images/props/health/radio5.jpg"), text1: "Icom", text2: "F52D/F52D UL (IS)" },
+          { src: require("@/assets/images/props/health/radio6.jpg"), text1: "Hytera", text2: "PD 786" },
         ],
 
         youtubeEmbed: [
@@ -168,7 +166,7 @@ export default {
         ],
         description: [
           {
-            src: require("@/assets/images/props/publicsafety/radioPolice0.png"),
+            src: require("@/assets/images/props/publicsafety/radioPolice0.jpg"),
             title: "Transformando comunicaciones para servicios de ambulancia",
             headerPic: "",
             imageHeaderPic: require("@/assets/images/props/health/header.jpg"),
@@ -241,10 +239,10 @@ export default {
         texts: [{}, {}],
 
         picList1: [
-          { src: require("@/assets/images/props/fire/radio0.png"), text1: "Sepura", text2: " SP8X000" },
-          { src: require("@/assets/images/props/fire/radio1.png"), text1: "Kenwood", text2: "TK-NX200" },
-          { src: require("@/assets/images/props/fire/radio2.png"), text1: "Icom", text2: "F70D/F80D" },
-          { src: require("@/assets/images/props/fire/radio3.png"), text1: "Hytera", text2: "PD715IS / PD795I" },
+          { src: require("@/assets/images/props/fire/radio0.jpg"), text1: "Sepura", text2: " SP8X000" },
+          { src: require("@/assets/images/props/fire/radio1.jpg"), text1: "Kenwood", text2: "TK-NX200" },
+          { src: require("@/assets/images/props/fire/radio2.jpg"), text1: "Icom", text2: "F70D/F80D" },
+          { src: require("@/assets/images/props/fire/radio3.jpg"), text1: "Hytera", text2: "PD715IS / PD795I" },
         ],
 
         youtubeEmbed: [
@@ -273,7 +271,7 @@ export default {
         ],
         description: [
           {
-            src: require("@/assets/images/props/publicsafety/radioPolice0.png"),
+            src: require("@/assets/images/props/publicsafety/radioPolice0.jpg"),
             title: "Soluciones que pueden soportar el calor.",
             headerPic: "",
             imageHeaderPic: require("@/assets/images/props/fire/header.jpg"),
@@ -346,8 +344,8 @@ export default {
         texts: [{}, {}],
 
         picList1: [
-          { src: require("@/assets/images/props/covert/radio0.png"), text1: "Sepura", text2: " SC21" },
-          { src: require("@/assets/images/props/covert/radio1.png"), text1: "Hytera", text2: "Z1p" },
+          { src: require("@/assets/images/props/covert/radio0.jpg"), text1: "Sepura", text2: " SC21" },
+          { src: require("@/assets/images/props/covert/radio1.jpg"), text1: "Hytera", text2: "Z1p" },
         ],
 
         youtubeEmbed: [
@@ -376,7 +374,7 @@ export default {
         ],
         description: [
           {
-            src: require("@/assets/images/props/publicsafety/radioPolice0.png"),
+            src: require("@/assets/images/props/publicsafety/radioPolice0.jpg"),
             title: "Vigilancia encubierta",
             headerPic: "",
             imageHeaderPic: require("@/assets/images/props/fire/header.jpg"),
@@ -429,10 +427,10 @@ export default {
     },
 
     radiosEquip: [
-      { src: require("@/assets/images/props/publicsafety/radioPolice0.png") },
-      { src: require("@/assets/images/props/publicsafety/radioPolice1.png") },
-      { src: require("@/assets/images/props/publicsafety/radioPolice3.png") },
-      { src: require("@/assets/images/props/publicsafety/radioPolice4.png") },
+      { src: require("@/assets/images/props/publicsafety/radioPolice0.jpg") },
+      { src: require("@/assets/images/props/publicsafety/radioPolice1.jpg") },
+      { src: require("@/assets/images/props/publicsafety/radioPolice3.jpg") },
+      { src: require("@/assets/images/props/publicsafety/radioPolice4.jpg") },
     ],
 
     logoTechs: [
@@ -464,7 +462,7 @@ export default {
 
     itemsSector: [
       {
-        src: require("@/assets/images/hikvision/ptz.png"),
+        src: require("@/assets/images/hikvision/ptz.jpg"),
         icon: "videocam",
         text:
           "Soluciones CCTV que cubran áreas críticas de una ciudad e integre datos de video entre dichas áreas para visualizar el estado de seguridad subyacente a nivel de ciudad.",
@@ -486,7 +484,7 @@ export default {
         text: "Consolas vehiculares y vídeo en movilidad en tiempo real.",
       },
       {
-        src: require("@/assets/images/props/videowall.png"),
+        src: require("@/assets/images/props/videowall.jpg"),
         icon: "memory",
         text: "Unidades de despacho y centro de control para gestión centralizada.",
       },
@@ -586,4 +584,3 @@ export default {
     },
   },
 };
-  

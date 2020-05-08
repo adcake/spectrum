@@ -1,16 +1,8 @@
 <template>
   <v-container class="home py-0 px-0" fluid>
-    <!-- <img src="@/assets/one.png" alt=""> -->
+    <!-- <img src="@/assets/one.jpg" alt=""> -->
     <v-row>
-      <v-carousel
-        cycle
-        height="auto"
-        max-width="100%"
-        hide-delimiter-background
-        hide-delimiters
-        show-arrows-on-hover
-        
-      >
+      <v-carousel cycle height="auto" max-width="100%" hide-delimiter-background hide-delimiters show-arrows-on-hover>
         <v-carousel-item v-for="(item, i) in banners" :key="i" :src="item.src">
           <v-row class="fill-height" align="center" justify="center">
             <div class="display-3">{{ item.slide }}</div>
@@ -35,12 +27,16 @@
         >
           <span class="text-justify">
             <p>
-              Empresa Venezolana líder en el mercado nacional con más de 11 años de trayectoria, especializada en brindar soluciones de seguridad electrónica y radiocomunicaciones, cuenta con representación directa de las marcas de mayor prestigio a nivel mundial, por lo que podemos asegurar la excelente calidad de nuestros productos, la mejor relación precio-valor del mercado y el servicio posventa más confiable del país.
-              <br/><br/>
-              Contamos con el portafolio de productos más completo de soluciones para el sector público y privado: radios digitales y
-              analógicos, infraestructura de radiocomunicación, soluciones para labores de inteligencia y protección de
-              personalidades, aplicaciones para seguridad pública y misión crítica, equipos para uso en minería,
-              petróleo, gas, marítimo y aeronáutico.
+              Empresa Venezolana líder en el mercado nacional con más de 11 años de trayectoria, especializada en
+              brindar soluciones de seguridad electrónica y radiocomunicaciones, cuenta con representación directa de
+              las marcas de mayor prestigio a nivel mundial, por lo que podemos asegurar la excelente calidad de
+              nuestros productos, la mejor relación precio-valor del mercado y el servicio posventa más confiable del
+              país.
+              <br /><br />
+              Contamos con el portafolio de productos más completo de soluciones para el sector público y privado:
+              radios digitales y analógicos, infraestructura de radiocomunicación, soluciones para labores de
+              inteligencia y protección de personalidades, aplicaciones para seguridad pública y misión crítica, equipos
+              para uso en minería, petróleo, gas, marítimo y aeronáutico.
             </p>
           </span>
         </div>
@@ -67,7 +63,7 @@
                 </span>
               </div>
               <div class="text-center pb-4">
-                <v-btn small rounded color="primary" dark  to="/categories/publico">Ver Más</v-btn>
+                <v-btn small rounded color="primary" dark to="/categories/publico">Ver Más</v-btn>
               </div>
 
               <v-spacer></v-spacer>
@@ -93,7 +89,7 @@
                 </span>
               </div>
               <div class="text-center pb-4">
-                <v-btn small rounded color="primary" dark  to="/categories/critica">Ver Más</v-btn>
+                <v-btn small rounded color="primary" dark to="/categories/critica">Ver Más</v-btn>
               </div>
               <v-spacer></v-spacer>
             </v-img>
@@ -118,7 +114,7 @@
                 </span>
               </div>
               <div class="text-center pb-4">
-                <v-btn small rounded color="primary" dark  to="/categories/industrial">Ver Más</v-btn>
+                <v-btn small rounded color="primary" dark to="/categories/industrial">Ver Más</v-btn>
               </div>
               <v-spacer></v-spacer>
             </v-img>
@@ -141,8 +137,7 @@
                 </span>
               </div>
               <div class="text-center pb-4">
-                <v-btn small rounded color="primary" dark  to="/categories/transporte">Ver Más</v-btn>
-                
+                <v-btn small rounded color="primary" dark to="/categories/transporte">Ver Más</v-btn>
               </div>
               <v-spacer></v-spacer>
             </v-img>
