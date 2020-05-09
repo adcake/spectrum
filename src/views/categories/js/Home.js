@@ -6,8 +6,11 @@ export default {
   },
   data() {
     return {
-      banners: [{ src: require("@/assets/banner/one.jpg") }],
-
+        randomBanner: [
+            require("@/assets/banner/one.jpg"),
+            require("@/assets/banner/two.jpg"),
+            require("@/assets/banner/three.jpg")],
+      selectedImage: '',
       industries: [
         {
           color: "primary",
@@ -18,6 +21,10 @@ export default {
         },
       ],
     };
+  },
+  created() {
+    const idx = Math.floor(Math.random() * this.randomBanner.length);
+    this.selectedImage = this.randomBanner[idx];
   },
 
   computed: {

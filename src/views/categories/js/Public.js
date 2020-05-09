@@ -96,7 +96,7 @@ export default {
               },
             ],
             description1:
-              "La seguridad pública es un elemento esencial y claramente vertebrador en las sociedades actuales. La confianza que depositan los ciudadanos en los cuerpos y agencias de seguridad pública permiten que se genere el entorno propicio y necesario para el desarrollo de todo tipo de actividades, contribuyendo al desarrollo social, económico y humano de las poblaciones, y en última instancia de nuestras sociedades.",
+              "La seguridad pública es un elemento esencial y un pilar fundamental en las sociedades actuales. La confianza que depositan los ciudadanos en los cuerpos y agencias de seguridad pública permiten que se genere el entorno propicio y necesario para el desarrollo de todo tipo de actividades, contribuyendo al desarrollo social, económico y humano de las poblaciones, y en última instancia de nuestras sociedades.",
             description2:
               "Por ello, se establece como prioritario que los efectivos de estas agencias de seguridad pública lleven el desempeño de sus tareas a las más altas cotas de eficiencia, servicio y coordinación, ya se trate de bomberos, policías, servicio de ambulancias, cuerpos de rescate… Para ello, las redes radio que utilizan habitualmente en el acometimiento de sus tareas juegan un papel fundamental y decisivo, permitiendo las comunicaciones y el intercambio ágil y rápido de información en todo momento.",
             image2: require("@/assets/images/props/radios.jpg"),
