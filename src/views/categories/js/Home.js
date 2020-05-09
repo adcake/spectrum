@@ -6,9 +6,7 @@ export default {
   },
   data() {
     return {
-      banners: [
-        { src: require("@/assets/banner/one.jpg") },
-      ],
+      banners: [{ src: require("@/assets/banner/one.jpg") }],
 
       industries: [
         {
@@ -23,6 +21,31 @@ export default {
   },
 
   computed: {
+    fontTitleSize() {
+      switch (this.$vuetify.breakpoint.name) {
+        case "xs":
+          return "1.2em !important";
+        case "sm":
+          return "1.7em !important";
+        case "md":
+          return "1.9em !important";
+        default:
+          return "2.2em !important";
+      }
+    },
+    fontSubtitleSize() {
+      switch (this.$vuetify.breakpoint.name) {
+        case "xs":
+          return "1em !important";
+        case "sm":
+          return "1em !important";
+        case "md":
+          return "1.2em !important";
+        default:
+          return "1.5em !important";
+      }
+    },
+
     fontSize() {
       switch (this.$vuetify.breakpoint.name) {
         case "xs":
