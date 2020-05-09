@@ -66,13 +66,13 @@
                       <v-row class="text-center pt-5 grey lighten-4">
                         <v-container>
                           <p class="font-weight-bold black--text align-self-center display-1 text-uppercase">
-                          {{ description.title }}
+                            {{ description.title }}
                           </p>
                           <p class="caption font-weight-bold primary--text">{{ description.subtitle }}</p>
                           <v-img contain :src="description.imageHeaderPic"></v-img>
                           <v-chip class="mt-2" x-small>Soluciones a la medida de su ciudad / Centro de control</v-chip>
                         </v-container>
-                            
+
                         <v-container>
                           <div class="px-10">
                             <v-card flat shaped v-if="description.descriptionTitle5">
@@ -95,7 +95,7 @@
                                 </p>
                                 <v-card flat shaped class="my-4">
                                   <div class="pa-4">
-                                    <ul v-for="item in description.descriptionListing" :key="item.id" >
+                                    <ul v-for="item in description.descriptionListing" :key="item.id">
                                       <li class="pa-1 body-1  text-left text-justify" v-if="item.listingDes">
                                         {{ item.listingDes }}
                                       </li>
@@ -112,23 +112,23 @@
 
                         <v-container>
                           <div class="px-2">
-                            <v-card flat shaped v-if="description.description2">
+                            <v-card class="py-5" flat shaped v-if="description.description2">
                               <v-row>
-                                <v-col xs12 sm8 pa-2 class="align-self-center">
-                                  <p class="body-1 text-left text-justify px-10 py-5">
+                                <v-col xs="12" sm="8" class="align-self-center">
+                                  <p class="body-1 text-left text-justify px-10">
                                     {{ description.description2 }}
                                   </p>
                                 </v-col>
-                                <v-col xs12 sm4>
-                                  <div class="pa-3">
-                                    <img width="auto" height="200" :src="description.image2" />
+                                <v-col xs="12" sm="4">
+                                  <div class="px-2">
+                                    <v-img width="auto" contain :src="description.image2" />
                                     <v-chip x-small>{{ description.image2Description }}</v-chip>
                                   </div>
                                 </v-col>
                               </v-row>
                               <v-row>
                                 <v-col xs12 pa-2 class="align-self-center">
-                                  <div class="px-10">
+                                  <div>
                                     <ul v-for="item in description.description2Listing" :key="item.id">
                                       <li class="body-1 text-left text-justify" v-if="item.listingDes">
                                         {{ item.listingDes }}
@@ -228,7 +228,9 @@
                                           list.preListing
                                         }}</span></v-list-item-title
                                       >
-                                      <p v-if="list.listing" class="body-1 text-justify px-0 py-1">{{ list.listing }}</p>
+                                      <p v-if="list.listing" class="body-1 text-justify px-0 py-1">
+                                        {{ list.listing }}
+                                      </p>
                                     </v-list-item-content>
                                   </v-list-item>
                                 </template>
@@ -268,7 +270,9 @@
                                 <v-img height="150" aspect-ratio="2" contain :src="radiopic.src" alt="alt"></v-img>
                                 <v-list-item>
                                   <v-list-item-content>
-                                    <v-list-item-title class="font-weight-medium">{{ radiopic.text1 }}</v-list-item-title>
+                                    <v-list-item-title class="font-weight-medium">{{
+                                      radiopic.text1
+                                    }}</v-list-item-title>
                                     <v-list-item-subtitle>
                                       <v-chip small>{{ radiopic.text2 }}</v-chip>
                                     </v-list-item-subtitle>
