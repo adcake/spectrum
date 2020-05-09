@@ -71,10 +71,38 @@ export default {
             subtitle: "Soluciones para ciudades inteligentes.",
             description:
               "Con la confianza de innumerables fuerzas policiales en todo el mundo, nuestras marcas y soluciones de comunicación especializadas brindan comunicaciones cifradas de voz y datos altamente seguras, una cobertura nítida en cualquier entorno y comunicación instantánea con otros servicios de emergencia y agencias de protección civil.",
+            descriptionListing: [
+              {
+                listingDes:
+                  "Infraestructura de comunicaciones radio TETRA y LTE Equipamiento para infraestructuras de red de transporte",
+              },
+              {
+                listingDes: "Equipos radio móviles y portátiles.",
+              },
+              {
+                listingDes: "Consolas vehiculares y vídeo en movilidad en tiempo real",
+              },
+              {
+                listingDes: "Unidades de despacho y centro de control para gestión centralizada",
+              },
+              {
+                listingDes: "Centros de atención telefónica 911/112",
+              },
+              {
+                listingDes: "Aplicaciones de localización automática de vehículos y unidades",
+              },
+              {
+                listingDes: "Soluciones CCTV con cámaras fijas desplegadas",
+              },
+            ],
+            description1:
+              "La seguridad pública es un elemento esencial y claramente vertebrador en las sociedades actuales. La confianza que depositan los ciudadanos en los cuerpos y agencias de seguridad pública permiten que se genere el entorno propicio y necesario para el desarrollo de todo tipo de actividades, contribuyendo al desarrollo social, económico y humano de las poblaciones, y en última instancia de nuestras sociedades.",
             description2:
-              "De abierto a encubierto, las soluciones de Spectrum son las más confiables para proporcionar comunicaciones vitales incluso a las operaciones más avanzadas.",
+              "Por ello, se establece como prioritario que los efectivos de estas agencias de seguridad pública lleven el desempeño de sus tareas a las más altas cotas de eficiencia, servicio y coordinación, ya se trate de bomberos, policías, servicio de ambulancias, cuerpos de rescate… Para ello, las redes radio que utilizan habitualmente en el acometimiento de sus tareas juegan un papel fundamental y decisivo, permitiendo las comunicaciones y el intercambio ágil y rápido de información en todo momento.",
             image2: require("@/assets/images/props/radios.jpg"),
             image2Description: "Teltronic / PBS – Portable Base Station",
+            description3:
+              "Nuestras marcas ofrecen las tecnologías en seguridad electrónica más avanzadas y modernas del mundo para cubrir las necesidades de comunicación de cualquier agencia de seguridad pública, independientemente de su alcance: local, regional o nacional. La experiencia adquirida durante más de 40 años al lado de agencias de seguridad pública de todo el mundo les permite conocer claramente las necesidades de operación en el sector, y poder dar respuesta a los requerimientos de cada proyecto con los sistemas y soluciones más sofisticados.",
             description4:
               " Nuestras marcas proporcionan comunicaciones de avanzadas, con soluciones confiables, robustas y seguras.",
             image4: require("@/assets/images/props/publicsafety/image4.jpg"),
@@ -95,33 +123,32 @@ export default {
         descriptionList: [
           {
             iconListing: "adjust",
-            preListing: "",
+            preListing: "Comunicaciones de voz",
             listing:
-              "Comunicaciones de voz, tanto individuales como de grupo, con distintos permisos y prioridades de llamada para asegurar que las llamadas críticas progresarán ante cualquier circunstancia.",
+              "Tanto individuales como de grupo, con distintos permisos y prioridades de llamada para asegurar que las llamadas críticas progresarán ante cualquier circunstancia.",
           },
           {
             iconListing: "adjust",
-            preListing: "",
-            listing:
-              "Transmisión de datos críticos. Servicios de mensajería entre unidades o desde/para el centro de control.",
+            preListing: "Transmisión de datos críticos",
+            listing: "Servicios de mensajería entre unidades o desde/para el centro de control.",
           },
           {
             iconListing: "adjust",
-            preListing: "",
+            preListing: "Posicionamiento GPS y localización automática de vehículos (AVL)",
             listing:
-              "Posicionamiento GPS y localización automática de vehículos (AVL), con aplicaciones de transmisión automática y periódica de la información de posición al centro de control.",
+              "Con aplicaciones de transmisión automática y periódica de la información de posición al centro de control.",
           },
           {
             iconListing: "adjust",
-            preListing: "",
+            preListing: "Centro de control para la gestión y coordinación centralizada",
             listing:
-              "Centro de control para la gestión y coordinación centralizada, con aplicaciones de gestión de las comunicaciones de voz y datos críticos, mapas con información y localización GPS y almacenamiento y gestión de información vinculada a servicios e incidentes.",
+              "Con aplicaciones de gestión de las comunicaciones de voz y datos críticos, mapas con información y localización GPS y almacenamiento y gestión de información vinculada a servicios e incidentes.",
           },
           {
             iconListing: "adjust",
-            preListing: "",
+            preListing: "Acceso a vídeo móvil y fijo desde el centro de control",
             listing:
-              "Acceso a vídeo móvil y fijo desde el centro de control, con modernas consolas vehiculares equipadas con cámaras de vídeo y cámaras fijas situadas en puntos estratégicos de las ciudades.",
+              "Con modernas consolas vehiculares equipadas con cámaras de vídeo y cámaras fijas situadas en puntos estratégicos de las ciudades.",
           },
         ],
       },
@@ -407,12 +434,12 @@ export default {
         ],
         descriptionListTitle: [{ title: "Nuestras soluciones son utilizadas globalmente por." }],
         descriptionList: [
-          { iconListing: "adjust", preListing: "", listing: "Equipos de Investigación de Delincuencia Organizada." },
-          { iconListing: "adjust", preListing: "", listing: "Unidades de lucha contra el terrorismo." },
-          { iconListing: "adjust", preListing: "", listing: "Unidades militares." },
-          { iconListing: "adjust", preListing: "", listing: "Equipos de Investigación de Drogas." },
-          { iconListing: "adjust", preListing: "", listing: "Equipos de investigación de fraudes serios." },
-          { iconListing: "adjust", preListing: "", listing: "Unidades de contraespionaje." },
+          { iconListing: "adjust", preListing: "Equipos de Investigación de Delincuencia Organizada.", listing: "" },
+          { iconListing: "adjust", preListing: "Unidades de lucha contra el terrorismo.", listing: "" },
+          { iconListing: "adjust", preListing: "Unidades militares.", listing: "" },
+          { iconListing: "adjust", preListing: "Equipos de Investigación de Drogas.", listing: "" },
+          { iconListing: "adjust", preListing: "Equipos de investigación de fraudes serios.", listing: "" },
+          { iconListing: "adjust", preListing: "Unidades de contraespionaje.", listing: "" },
         ],
       },
     ],
