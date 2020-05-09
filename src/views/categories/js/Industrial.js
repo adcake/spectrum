@@ -352,14 +352,14 @@ export default {
         subHeaderTitle: "Protección Perimetral",
         subHeaderIcon: "verified_user",
         subHeader:
-          "Intrusión, interrupción, lesión. Estas son las amenazas principales para la productividad, la rentabilidad y el bienestar de los empleados en sus instalaciones. Las soluciones de infraestructura crítica de Axis le permiten abordar las tres de forma completa y rentable, con un único sistema integrado. \r\n Nuestros sistemas de vigilancia inteligentes, abiertos y basados en IP están diseñados para que todas las partes puedan comunicarse entre sí. Están preparados para el futuro, son escalables y fáciles de integrar con otros sistemas. Además, lo más importante es que habilitan la supervisión de varios sitios de forma remota, desde una única sala de control.",
+          "Intrusión, interrupción, lesión. Estas son las amenazas principales para la productividad, la rentabilidad y el bienestar de los empleados en sus instalaciones. Las soluciones de infraestructura crítica de nuestras marcas le permiten abordar las tres de forma completa y rentable, con un único sistema integrado. \r\n Nuestros sistemas de vigilancia inteligentes, abiertos y basados en IP están diseñados para que todas las partes puedan comunicarse entre sí. Están preparados para el futuro, son escalables y fáciles de integrar con otros sistemas. Además, lo más importante es que habilitan la supervisión de varios sitios de forma remota, desde una única sala de control.",
       },
       {
         // imageHeader: require('@/assets/images/props/oilmining/header3.jpg'),
         subHeaderTitle: "Proteja sus instalaciones críticas de intrusiones",
         subHeaderIcon: "warning",
         subHeader:
-          "Una solución de protección frente a intrusiones de Axis protege sus instalaciones de forma fiable. Cámaras visuales y térmicas con análisis incorporados combinados con seguimiento por radar para alertar a los operadores de la sala de control. Activan automáticamente advertencias pregrabadas a los posibles intrusos, que pueden ser identificados mediante cámaras PTZ. Dentro y alrededor del núcleo crítico, los sistemas de control de acceso de Axis no solo evitan el acceso no autorizado, sino que también le permiten supervisar las actividades de su personal. Asegúrese de contar siempre con las personas correctas, en los lugares correctos, que realicen lo correcto.",
+          "Spectrum Tecnología, una solución de protección frente a intrusiones en sus instalaciones de forma fiable. Cámaras visuales y térmicas con análisis incorporados combinados con seguimiento por radar para alertar a los operadores de la sala de control. Activan automáticamente advertencias pregrabadas a los posibles intrusos, que pueden ser identificados mediante cámaras PTZ. Dentro y alrededor del núcleo crítico, nuestros sistemas de control de acceso no solo evitan el acceso no autorizado, sino que también le permiten supervisar las actividades de su personal. Asegúrese de contar siempre con las personas correctas, en los lugares correctos, que realicen lo correcto.",
       },
       {
         // imageHeader: require('@/assets/images/props/oilmining/header3.jpg'),
@@ -373,14 +373,14 @@ export default {
         subHeaderTitle: "Soluciones Comerciales",
         subHeaderIcon: "adjust",
         subHeader:
-          "Identifique a personas en áreas amplias con cámaras con movimiento horizontal/vertical y zoom para observar áreas específicas de interés. Actúe sobre las alarmas y utilice audio pregrabado para impedir actividades no deseadas. Con una solución Axis, todo esto se puede gestionar desde una ubicación remota, en cualquier lugar y en cualquier momento.",
+          "Identifique a personas en áreas amplias con cámaras con movimiento horizontal/vertical y zoom para observar áreas específicas de interés. Actúe sobre las alarmas y utilice audio pregrabado para impedir actividades no deseadas. Con una solución, todo esto se puede gestionar desde una ubicación remota, en cualquier lugar y en cualquier momento.",
       },
       {
         // imageHeader: require('@/assets/images/props/oilmining/header3.jpg'),
         subHeaderTitle: "Control de acceso",
         subHeaderIcon: "business",
         subHeader:
-          "Supervisar las entradas y salidas para garantizar que solo el personal autorizado tiene acceso. Las soluciones de control de acceso de Axis ofrecen control en muchos niveles y en varios sitios y todo desde una única ubicación remota. Un edificio, una habitación dentro de este o un armario de la habitación. Nuestras soluciones van más allá del control. Le permiten controlar el bienestar de todas las personas que se encuentran en las instalaciones, especialmente en las zonas más críticas, sensibles o vulnerables.",
+          "Supervisar las entradas y salidas para garantizar que solo el personal autorizado tiene acceso. Nuestras soluciones de control de acceso ofrecen control en muchos niveles y en varios sitios y todo desde una única ubicación remota. Un edificio, una habitación dentro de este o un armario de la habitación. Nuestras soluciones van más allá del control. Le permiten controlar el bienestar de todas las personas que se encuentran en las instalaciones, especialmente en las zonas más críticas, sensibles o vulnerables.",
       },
     ],
   }),

@@ -65,7 +65,7 @@
                     <v-card>
                       <v-row class="text-center pt-5 grey lighten-4">
                         <v-container>
-                          <p class="font-weight-bold black--text align-self-center display-1 text-uppercase">
+                          <p class="font-weight-bold black--text align-self-center headline">
                             {{ description.title }}
                           </p>
                           <p class="caption font-weight-bold primary--text">{{ description.subtitle }}</p>
@@ -108,9 +108,7 @@
                               </v-col>
                             </v-row>
                           </div>
-                        </v-container>
-
-                        <v-container>
+                          
                           <div class="px-2">
                             <v-card class="py-5" flat shaped v-if="description.description2">
                               <v-row>
@@ -215,7 +213,7 @@
                         <v-container>
                           <div class="px-2">
                             <v-card class="my-2" flat v-for="list in item.descriptionList" :key="list.id">
-                              <v-list three-line class="text-left pa-5">
+                              <v-list three-line  class="text-left pa-2">
                                 <template>
                                   <v-list-item>
                                     <v-list-item-avatar class="align-self-center">
