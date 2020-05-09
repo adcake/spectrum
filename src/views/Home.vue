@@ -8,7 +8,7 @@
         class="grey darken-4"
       >
         <v-row align="center" class="lightbox white--text ml-10 fill-height" >
-          <v-col xs12 sm8>
+          <v-col xs='12' sm='5' md='4'>
             <p class="text-left  font-weight-black text-uppercase text-shadow"  :style="{ 'font-size': fontTitleSize }">Todo en Sistemas de Emergencia, Seguridad y Comunicación</p>
             <p class="body-1  hidden-sm-and-down" :style="{ 'font-size': fontSubtitleSize }">Con el respaldo de las mejores marcas a nivel mundial</p>
           </v-col>

@@ -7,9 +7,9 @@ export default {
   data() {
     return {
         randomBanner: [
-            require("@/assets/banner/one.jpg"),
-            require("@/assets/banner/two.jpg"),
-            require("@/assets/banner/three.jpg")],
+            require("@/assets/banner/seven.jpg"),
+            require("@/assets/banner/cero.jpg"),
+            require("@/assets/banner/one.jpg")],
       selectedImage: '',
       industries: [
         {
