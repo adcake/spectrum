@@ -177,7 +177,7 @@
                         </v-container>
 
                         <v-row xs1 my-5></v-row>
-
+////
                         <v-container>
                           <div class="px-2">
                             <v-row no-gutters>
@@ -237,7 +237,6 @@
                           </div>
                         </v-container>
 
-                        <v-row xs1 my-5></v-row>
 
                         <v-container>
                           <div class="px-2">
@@ -253,35 +252,33 @@
                           </div>
                         </v-container>
 
-                        <v-row xs1 my-5></v-row>
+                        <v-container>
+                          <v-row class="px-5">
+                            <v-col
+                              sm="3"
+                              class="px-2 py-5 align-self-center text-center"
+                              v-for="radiopic in item.picList3"
+                              :key="radiopic.id"
+                            >
+                              <v-card shaped>
+                                <v-list three-line subheader>
+                                  <v-img height="150" aspect-ratio="2" contain :src="radiopic.src" alt="alt"></v-img>
+                                  <v-list-item>
+                                    <v-list-item-content>
+                                      <v-list-item-title class="font-weight-medium">{{
+                                        radiopic.text1
+                                      }}</v-list-item-title>
+                                      <v-list-item-subtitle>
+                                        <v-chip small>{{ radiopic.text2 }}</v-chip>
+                                      </v-list-item-subtitle>
+                                    </v-list-item-content>
+                                  </v-list-item>
+                                </v-list>
+                              </v-card>
+                            </v-col>
+                          </v-row>
+                        </v-container>
 
-                        <v-row>
-                          <v-col
-                            cols="6"
-                            sm="3"
-                            class="px-2 py-5 align-self-center text-center"
-                            v-for="radiopic in item.picList3"
-                            :key="radiopic.id"
-                          >
-                            <v-card shaped>
-                              <v-list three-line subheader>
-                                <v-img height="150" aspect-ratio="2" contain :src="radiopic.src" alt="alt"></v-img>
-                                <v-list-item>
-                                  <v-list-item-content>
-                                    <v-list-item-title class="font-weight-medium">{{
-                                      radiopic.text1
-                                    }}</v-list-item-title>
-                                    <v-list-item-subtitle>
-                                      <v-chip small>{{ radiopic.text2 }}</v-chip>
-                                    </v-list-item-subtitle>
-                                  </v-list-item-content>
-                                </v-list-item>
-                              </v-list>
-                            </v-card>
-                          </v-col>
-                        </v-row>
-
-                        <v-row xs1 my-5></v-row>
                       </v-row>
                     </v-card>
                   </v-col>
