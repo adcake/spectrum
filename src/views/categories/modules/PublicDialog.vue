@@ -57,7 +57,7 @@
                 </v-col>
               </v-row>
             </v-container>
-///
+
             <v-container>
               <v-row>
                 <v-col md12 mb-10 v-for="description in item.description" :key="description.id">
@@ -111,31 +111,37 @@
                       <v-flex xs1 my-5></v-flex>
 
                       <v-card flat shaped v-if="description.description2">
-                        <v-layout row wrap>
-                          <v-flex xs12 sm8 pa-2 class="align-self-center">
-                            <blockquote class="blockquote text-left text-justify px-10">
-                              {{ description.description2 }}
-                            </blockquote>
-                          </v-flex>
-                          <v-flex xs12 sm4>
-                            <div class="pa-3">
-                              <img width="auto" height="200" :src="description.image2" />
-                              <v-chip x-small>{{ description.image2Description }}</v-chip>
-                            </div>
-                          </v-flex>
-                          <v-flex xs12 pa-2 class="align-self-center">
-                            <div class="px-10">
-                              <ul v-for="item in description.description2Listing" :key="item.id">
-                                <li class=" blockquote text-left text-justify" v-if="item.listingDes">
-                                  {{ item.listingDes }}
-                                </li>
-                              </ul>
-                            </div>
-                            <blockquote class="blockquote text-left text-justify px-10">
-                              {{ description.description3 }}
-                            </blockquote>
-                          </v-flex>
-                        </v-layout>
+                        <v-row>
+                          <v-col>
+                            <v-row>
+                              <v-col xs12 sm8 pa-2 class="align-self-center">
+                                <blockquote class="blockquote text-left text-justify px-10">
+                                  {{ description.description2 }}
+                                </blockquote>
+                              </v-col>
+                              <v-col xs12 sm4>
+                                <div class="pa-3">
+                                  <img width="auto" height="200" :src="description.image2" />
+                                  <v-chip x-small>{{ description.image2Description }}</v-chip>
+                                </div>
+                              </v-col>
+                            </v-row>
+                            <v-row>
+                              <v-col xs12 pa-2 class="align-self-center">
+                                <div class="px-10">
+                                  <ul v-for="item in description.description2Listing" :key="item.id">
+                                    <li class=" blockquote text-left text-justify" v-if="item.listingDes">
+                                      {{ item.listingDes }}
+                                    </li>
+                                  </ul>
+                                </div>
+                                <blockquote class="blockquote text-left text-justify px-10">
+                                  {{ description.description3 }}
+                                </blockquote>
+                              </v-col>
+                            </v-row>
+                          </v-col>
+                        </v-row>
                       </v-card>
 
                       <v-flex xs1 my-5></v-flex>
@@ -170,31 +176,30 @@
 
                       <v-flex xs1 my-5></v-flex>
 
-                      <v-flex xs12>
-                        <v-row no-gutters>
-                          <v-col
-                            cols="6"
-                            sm="3"
-                            class="px-2 align-self-center text-center"
-                            v-for="radiopic in item.picList2"
-                            :key="radiopic.id"
-                          >
-                            <v-card shaped>
-                              <v-list three-line subheader>
-                                <v-img height="150" aspect-ratio="2" contain :src="radiopic.src" alt="alt"></v-img>
-                                <v-list-item>
-                                  <v-list-item-content>
-                                    <v-list-item-title class="font-weight-bold">{{ radiopic.text1 }}</v-list-item-title>
-                                    <v-list-item-subtitle>
-                                      <v-chip small>{{ radiopic.text2 }}</v-chip>
-                                    </v-list-item-subtitle>
-                                  </v-list-item-content>
-                                </v-list-item>
-                              </v-list>
-                            </v-card>
-                          </v-col>
-                        </v-row>
-                      </v-flex>
+                      
+                      <v-row no-gutters>
+                        <v-col
+                          cols="6"
+                          sm="3"
+                          class="px-2 align-self-center text-center"
+                          v-for="radiopic in item.picList2"
+                          :key="radiopic.id"
+                        >
+                          <v-card shaped>
+                            <v-list three-line subheader>
+                              <v-img height="150" aspect-ratio="2" contain :src="radiopic.src" alt="alt"></v-img>
+                              <v-list-item>
+                                <v-list-item-content>
+                                  <v-list-item-title class="font-weight-bold">{{ radiopic.text1 }}</v-list-item-title>
+                                  <v-list-item-subtitle>
+                                    <v-chip small>{{ radiopic.text2 }}</v-chip>
+                                  </v-list-item-subtitle>
+                                </v-list-item-content>
+                              </v-list-item>
+                            </v-list>
+                          </v-card>
+                        </v-col>
+                      </v-row>
 
                       <v-flex xs1 my-5></v-flex>
 
@@ -233,8 +238,7 @@
 
                       <v-flex xs1 my-5></v-flex>
 
-                      <v-flex xs12>
-                        <v-row no-gutters>
+                      <v-row>
                           <v-col
                             cols="6"
                             sm="3"
@@ -256,8 +260,7 @@
                               </v-list>
                             </v-card>
                           </v-col>
-                        </v-row>
-                      </v-flex>
+                      </v-row>
 
                       <v-flex xs1 my-5></v-flex>
                     </v-layout>
