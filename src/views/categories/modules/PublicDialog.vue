@@ -81,7 +81,7 @@
                                   <p text-center class="title font-weight-black px-10">
                                     {{ description.descriptionTitle5 }}
                                   </p>
-                                  <p class="font-weight-light text-left text-justify px-10">
+                                  <p class=" text-left text-justify px-10">
                                     {{ description.description5 }}
                                   </p>
                                 </v-col>
@@ -90,10 +90,10 @@
 
                             <v-row>
                               <v-col>
-                                <p class="body-1 text-left text-justify mb-4 pb-4">
+                                <p class="body-1  text-left text-justify mb-4 pb-4">
                                   {{ description.description }}
                                 </p>
-                                <v-card flat shaped class="my-4">
+                                <v-card v-if="description.descriptionListing" flat shaped class="my-4">
                                   <div class="pa-4">
                                     <ul v-for="item in description.descriptionListing" :key="item.id">
                                       <li class="pa-1 body-1  text-left text-justify" v-if="item.listingDes">
@@ -124,20 +124,22 @@
                                   </div>
                                 </v-col>
                               </v-row>
-                              <v-row>
-                                <v-col xs12 pa-2 class="align-self-center">
-                                  <div>
-                                    <ul v-for="item in description.description2Listing" :key="item.id">
-                                      <li class="body-1 text-left text-justify" v-if="item.listingDes">
-                                        {{ item.listingDes }}
-                                      </li>
-                                    </ul>
-                                  </div>
-                                  <p class="body-1 text-left text-justify px-10">
-                                    {{ description.description3 }}
-                                  </p>
-                                </v-col>
-                              </v-row>
+                              <v-container>
+                                <v-row>
+                                  <v-col xs='12' class=" align-self-center">
+                                    <div>
+                                      <ul class="px-10" v-for="item in description.description2Listing" :key="item.id">
+                                        <li class="body-1 text-left text-justify" v-if="item.listingDes">
+                                          {{ item.listingDes }}
+                                        </li>
+                                      </ul>
+                                    </div>
+                                    <p class="body-1 text-left text-justify px-10">
+                                      {{ description.description3 }}
+                                    </p>
+                                  </v-col>
+                                </v-row>
+                              </v-container>
                             </v-card>
                           </div>
                         </v-container>
@@ -176,8 +178,7 @@
                           </div>
                         </v-container>
 
-                        <v-row xs1 my-5></v-row>
-////
+
                         <v-container>
                           <div class="px-2">
                             <v-row no-gutters>

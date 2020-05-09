@@ -108,8 +108,8 @@
         >
           {{ link.text }}
         </v-btn>
-        <v-btn v-for="icon in icons" :key="icon" small class="mx-2 align-self-center " dark icon>
-          <v-icon size="24px">{{ icon }}</v-icon>
+        <v-btn v-for="icon in icons" :key="icon" small class="mx-2 align-self-center " dark icon :href="icon.href">
+          <v-icon size="24px" >{{ icon.icon }}</v-icon>
         </v-btn>
         <v-col class="grey darken-4 lighten-2 py-4 text-center white--text caption" cols="12">
           {{ new Date().getFullYear() }} — <strong>Spectrum Tecnología C.A.</strong> -
@@ -142,7 +142,10 @@ export default {
       { icon: "", text: "Transporte", route: "/categories/transporte" },
     ],
 
-    icons: ["fab fa-whatsapp", "fab fa-instagram"],
+    icons: [
+      {icon:"fab fa-whatsapp", href: "https://wa.me/584241271455?text=Hola%20Spectrum,%20estoy%20interesado%20en%20la%20lista%20de%20precios",},
+      {icon: "fab fa-instagram", href: "https://www.instagram.com/spectrumtecnologia",} 
+      ],
   }),
 };
 </script>
