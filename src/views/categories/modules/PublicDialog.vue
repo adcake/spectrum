@@ -17,7 +17,7 @@
             </v-toolbar-items>
           </v-toolbar>
 
-          <v-flex xs12 sm12>
+          <v-col xs12 sm12>
             <v-container fluid grid-list-xs class="grey lighten-4">
               <div class="text-justify text-center">
                 <p class="py-5 title text-center font-weight-bold text-uppercase">
@@ -60,39 +60,39 @@
 
             <v-container>
               <v-layout row>
-                <v-flex md12 mb-10 v-for="description in item.description" :key="description.id">
+                <v-col md12 mb-10 v-for="description in item.description" :key="description.id">
                   <v-card class="pa5">
                     <v-layout row class="text-center px-10 pt-10 grey lighten-4">
-                      <v-flex xs12>
+                      <v-col xs12>
                         <p class="font-weight-bold black--text align-self-center headline text-uppercase">
                           {{ description.title }}
                         </p>
                         <p class="caption font-weight-bold primary--text">{{ description.subtitle }}</p>
-                      </v-flex>
+                      </v-col>
 
                       <v-layout row wrap>
-                        <v-flex xs12>
+                        <v-col xs12>
                           <v-img class="px-1" contain :src="description.imageHeaderPic"></v-img>
                           <v-chip x-small>Soluciones a la medida de su ciudad / Centro de control</v-chip>
-                        </v-flex>
+                        </v-col>
                       </v-layout>
 
-                      <v-flex xs1 my-5></v-flex>
+                      <v-col xs1 my-5></v-col>
 
                       <v-card flat shaped v-if="description.descriptionTitle5">
                         <v-layout row wrap>
-                          <v-flex xs12 pa-2 class="align-self-center">
+                          <v-col xs12 pa-2 class="align-self-center">
                             <blockquote text-center class="title font-weight-black px-10">
                               {{ description.descriptionTitle5 }}
                             </blockquote>
                             <blockquote class="blockquote text-left text-justify px-10">
                               {{ description.description5 }}
                             </blockquote>
-                          </v-flex>
+                          </v-col>
                         </v-layout>
                       </v-card>
 
-                      <v-flex xs12>
+                      <v-col xs12>
                         <blockquote class="blockquote text-left text-justify ">
                           {{ description.description }}
                         </blockquote>
@@ -106,24 +106,24 @@
                         <blockquote v-if="description.description1" class="blockquote text-left text-justify ">
                           {{ description.description1 }}
                         </blockquote>
-                      </v-flex>
+                      </v-col>
 
-                      <v-flex xs1 my-5></v-flex>
+                      <v-col xs1 my-5></v-col>
 
                       <v-card flat shaped v-if="description.description2">
                         <v-layout row wrap>
-                          <v-flex xs12 sm8 pa-2 class="align-self-center">
+                          <v-col xs12 sm8 pa-2 class="align-self-center">
                             <blockquote class="blockquote text-left text-justify px-10">
                               {{ description.description2 }}
                             </blockquote>
-                          </v-flex>
-                          <v-flex xs12 sm4>
+                          </v-col>
+                          <v-col xs12 sm4>
                             <div class="pa-3">
                               <img width="auto" height="200" :src="description.image2" />
                               <v-chip x-small>{{ description.image2Description }}</v-chip>
                             </div>
-                          </v-flex>
-                          <v-flex xs12 pa-2 class="align-self-center">
+                          </v-col>
+                          <v-col xs12 pa-2 class="align-self-center">
                             <div class="px-10">
                               <ul v-for="item in description.description2Listing" :key="item.id">
                                 <li class=" blockquote text-left text-justify" v-if="item.listingDes">
@@ -134,21 +134,21 @@
                             <blockquote class="blockquote text-left text-justify px-10">
                               {{ description.description3 }}
                             </blockquote>
-                          </v-flex>
+                          </v-col>
                         </v-layout>
                       </v-card>
 
-                      <v-flex xs1 my-5></v-flex>
+                      <v-col xs1 my-5></v-col>
 
                       <v-card flat shaped>
                         <v-layout row wrap>
-                          <v-flex xs4 sm4>
+                          <v-col xs4 sm4>
                             <div class="pa-3">
                               <img width="auto" height="200" :src="description.image4" />
                               <v-chip x-small>{{ description.image4Description }}</v-chip>
                             </div>
-                          </v-flex>
-                          <v-flex xs12 sm8 pa-2 class="align-self-center">
+                          </v-col>
+                          <v-col xs12 sm8 pa-2 class="align-self-center">
                             <blockquote class="blockquote text-left">{{ description.description4 }}</blockquote>
                             <v-container fluid grid-list-xs>
                               <v-row no-gutters>
@@ -164,13 +164,13 @@
                                 </v-col>
                               </v-row>
                             </v-container>
-                          </v-flex>
+                          </v-col>
                         </v-layout>
                       </v-card>
 
-                      <v-flex xs1 my-5></v-flex>
+                      <v-col xs1 my-5></v-col>
 
-                      <v-flex xs12>
+                      <v-col xs12>
                         <v-row no-gutters>
                           <v-col
                             cols="6"
@@ -194,11 +194,11 @@
                             </v-card>
                           </v-col>
                         </v-row>
-                      </v-flex>
+                      </v-col>
 
-                      <v-flex xs1 my-5></v-flex>
+                      <v-col xs1 my-5></v-col>
 
-                      <v-flex xs12 class="py-3" v-for="list in item.descriptionList" :key="list.id">
+                      <v-col xs12 class="py-3" v-for="list in item.descriptionList" :key="list.id">
                         <v-list three-line class="text-left pa-5">
                           <template>
                             <v-list-item>
@@ -217,11 +217,11 @@
                             </v-list-item>
                           </template>
                         </v-list>
-                      </v-flex>
+                      </v-col>
 
-                      <v-flex xs1 my-5></v-flex>
+                      <v-col xs1 my-5></v-col>
 
-                      <v-flex xs12 v-if="item.youtubeEmbed">
+                      <v-col xs12 v-if="item.youtubeEmbed">
                         <span v-for="video in item.youtubeEmbed" :key="video.id">
                           <youtube
                             :video-id="video.videoId"
@@ -229,11 +229,11 @@
                             :player-height="video.height"
                           ></youtube>
                         </span>
-                      </v-flex>
+                      </v-col>
 
-                      <v-flex xs1 my-5></v-flex>
+                      <v-col xs1 my-5></v-col>
 
-                      <v-flex xs12>
+                      <v-col xs12>
                         <v-row no-gutters>
                           <v-col
                             cols="6"
@@ -257,17 +257,17 @@
                             </v-card>
                           </v-col>
                         </v-row>
-                      </v-flex>
+                      </v-col>
 
-                      <v-flex xs1 my-5></v-flex>
+                      <v-col xs1 my-5></v-col>
                     </v-layout>
                   </v-card>
-                </v-flex>
+                </v-col>
               </v-layout>
             </v-container>
 
             <v-row class="px-2 grey lighten-3">
-              <v-flex xs12 class="py-10 my-10 align-self-center">
+              <v-col xs12 class="py-10 my-10 align-self-center">
                 <div class="text-justify text-center px-2">
                   <p class="text-center font-weight-medium" :style="{ 'font-size': fontSize }">
                     Si desea información sobre nuestras soluciones y productos<br />
@@ -283,9 +283,9 @@
                     >
                   </v-btn>
                 </div>
-              </v-flex>
+              </v-col>
             </v-row>
-          </v-flex>
+          </v-col>
         </v-card>
       </v-dialog>
     </v-row>
