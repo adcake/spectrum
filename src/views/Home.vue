@@ -9,8 +9,8 @@
       >
         <v-row align="center" class="lightbox white--text ml-10 fill-height" >
           <v-col xs12 sm8>
-            <p class="text-left font-weight-black text-uppercase text-shadow"  :style="{ 'font-size': fontTitleSize }">Todo en Sistemas de Emergencia, Seguridad y Comunicación</p>
-            <p class="body-1 text-shadow hidden-sm-and-down" :style="{ 'font-size': fontSubtitleSize }">Con el respaldo de las mejores marcas a nivel mundial</p>
+            <p class="text-left  font-weight-black text-uppercase text-shadow"  :style="{ 'font-size': fontTitleSize }">Todo en Sistemas de Emergencia, Seguridad y Comunicación</p>
+            <p class="body-1 black--text  hidden-sm-and-down" :style="{ 'font-size': fontSubtitleSize }">Con el respaldo de las mejores marcas a nivel mundial</p>
           </v-col>
           <v-col sm4></v-col>
         </v-row>
