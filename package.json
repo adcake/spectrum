@@ -5,6 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "serve:build": "http-server dist --cors",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -26,6 +27,7 @@
     "babel-eslint": "10.1.0",
     "eslint": "6.8.0",
     "eslint-plugin-vue": "6.2.2",
+    "http-server": "^0.12.3",
     "material-design-icons-iconfont": "^5.0.1",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",

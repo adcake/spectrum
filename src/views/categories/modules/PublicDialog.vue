@@ -31,8 +31,7 @@
 
             <v-container fluid grid-list-xs>
               <v-row no-gutters>
-                <v-flex
-                  col
+                <v-col
                   class="align-self-center text-center px-5"
                   v-for="radiopic in item.picList1"
                   :key="radiopic.id"
@@ -55,7 +54,7 @@
                       </v-list-item-content>
                     </v-list-item>
                   </v-list>
-                </v-flex>
+                </v-col>
               </v-row>
             </v-container>
 
