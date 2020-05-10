@@ -6,11 +6,13 @@ export default {
   },
   data() {
     return {
-        randomBanner: [
-            require("@/assets/banner/seven.jpg"),
-            require("@/assets/banner/cero.jpg"),
-            require("@/assets/banner/one.jpg")],
-      selectedImage: '',
+      randomBanner: [
+        require("@/assets/banner/seven.jpg"),
+        require("@/assets/banner/cero.jpg"),
+        require("@/assets/banner/four.jpg"),
+        require("@/assets/banner/one.jpg"),
+      ],
+      selectedImage: "",
       industries: [
         {
           color: "primary",
